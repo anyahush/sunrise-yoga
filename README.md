@@ -1,45 +1,43 @@
-![CI logo](https://codeinstitute.s3.amazonaws.com/fullstack/ci_logo_small.png)
+# Sunrise Yoga
 
-Welcome USER_NAME,
+Sunrise Yoga is a mobile-first website that aims to positively promote yoga, its benefits and encourage visitors to uptake classes at the studio. This website has been designed to ensure that visitors feel a sense of peace, balance and growth when exploring the site. visitors can find information on the benefits of yoga, yoga styles available, studio times and location and contact information. The primary goal of the site is to promote the studio and increase attendance at classes.
+This website has been created for my Milestone 1 visitor Centric Frontend Development Project. 
 
-This is the Code Institute student template for Gitpod. We have preinstalled all of the tools you need to get started. You can safely delete this README.md file, or change it for your own project. Please do read it at least once, though! It contains some important information about Gitpod and the extensions we use.
+## Table of Contents
 
-## Gitpod Reminders
 
-To run a frontend (HTML, CSS, Javascript only) application in Gitpod, in the terminal, type:
 
-`python3 -m http.server`
+## UX
 
-A blue button should appear to click: _Make Public_,
+## Strategy
 
-Another blue button should appear to click: _Open Browser_.
+### Project Goals
 
-To run a backend Python file, type `python3 app.py`, if your Python file is named `app.py` of course.
+* To establish an online presence for Sunrise Yoga.
+* To promote the studio and classes available.
+* To provide a means of engagement for current and prospective members. 
 
-A blue button should appear to click: _Make Public_,
+### Client Goals
+* As a client, I want a website developed, so I can increase brand awareness of the studio.
+* As a client, I want to establish a well designed platform, so I can engage with users about yoga.
+* As a client, I want my users to navigate easily through the site, so they have a good user experience and return to the site.
+* As a client, I want visuals and information to be displayed clearly and concisely, so that users want to attend yoga classes at the studio.
 
-Another blue button should appear to click: _Open Browser_.
+### visitor Stories
 
-In Gitpod you have superuser security privileges by default. Therefore you do not need to use the `sudo` (superuser do) command in the bash terminal in any of the lessons.
+* First-time visitors
+    * As a first-time visitor, I want to understand what the site is about and who it is for. 
+    * As a first-time visitor, I want to be able to find information about yoga and styles available, so I can decide if I want to attend. 
+    * As a first-time visitor, I want to be able to navigate the site easily, so I can find the information I seek. 
 
-## Updates Since The Instructional Video
+* Returning visitors
+    * As a returning visitor, I want to be able to check up-to-date class information, so I can find the right class for me.
+    * As a returning visitor, I want to be able to contact the studio, so I can have my queries resolved. 
+    * As a returning visitor, I want to be able to sign up for a newsletter, so I can stay informed about the studio.
+    * As a returning visitor, I want to be able to find social media links, so I can continue to follow the studio.
 
-We continually tweak and adjust this template to help give you the best experience. Here is the version history:
 
-**October 21 2020:** Versions of the HTMLHint, Prettier, Bootstrap4 CDN and Auto Close extensions updated. The Python extension needs to stay the same version for now.
 
-**October 08 2020:** Additional large Gitpod files (`core.mongo*` and `core.python*`) are now hidden in the Explorer, and have been added to the `.gitignore` by default.
 
-**September 22 2020:** Gitpod occasionally creates large `core.Microsoft` files. These are now hidden in the Explorer. A `.gitignore` file has been created to make sure these files will not be committed, along with other common files.
 
-**April 16 2020:** The template now automatically installs MySQL instead of relying on the Gitpod MySQL image. The message about a Python linter not being installed has been dealt with, and the set-up files are now hidden in the Gitpod file explorer.
 
-**April 13 2020:** Added the _Prettier_ code beautifier extension instead of the code formatter built-in to Gitpod.
-
-**February 2020:** The initialisation files now _do not_ auto-delete. They will remain in your project. You can safely ignore them. They just make sure that your workspace is configured correctly each time you open it. It will also prevent the Gitpod configuration popup from appearing.
-
-**December 2019:** Added Eventyret's Bootstrap 4 extension. Type `!bscdn` in a HTML file to add the Bootstrap boilerplate. Check out the <a href="https://github.com/Eventyret/vscode-bcdn" target="_blank">README.md file at the official repo</a> for more options.
-
----
-
-Happy coding!
