@@ -48,6 +48,20 @@ This website has been created for my Milestone 1 visitor Centric Frontend Develo
 
 **Insert opportunity goal table here**
 
+| Opportunity | Importance | Viability |
+| ----------- | ---------- | --------- |
+| Create an online presence | 5 | 5 |
+| Increase social media following | 2 | 2 |
+|Promote available classes | 5 | 5 |
+| Promote uptake of newsletter | 3 | 3 |
+| Encourage user contact | 4 | 4 |
+| Provide contact information and map location | 5 | 4 |
+| Online booking system | 2 | 1 |
+| Online membership platform | 1 | 1 |
+| Testimonial page | 2 | 5 |
+| Events page | 2 | 5 |
+
+
 
 
 ## Scope Plane
