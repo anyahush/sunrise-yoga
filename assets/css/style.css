@@ -1,0 +1,77 @@
+@import url('https://fonts.googleapis.com/css2?family=Meddon&family=PT+Serif:ital@0;1&family=Roboto+Condensed:wght@300;400&display=swap');
+
+
+* {
+    margin: 0;
+    padding: 0;
+    border: 0;
+
+}
+
+body {
+    font-family: "Roboto-Condensed";
+    color: #515d5f;
+}
+
+h1 {
+    font-family: 'Meddon';
+    font-weight: 200;
+    color: #3e837b
+}
+
+.logo {
+    float: left;
+    text-decoration: none;
+    color: inherit;
+
+
+}
+
+#title {
+    font-size: 300%;
+}
+
+#tagline {
+    font-size: 70%;
+    font-family: 'PT Serif';
+    text-transform: uppercase;
+    letter-spacing: 4px;
+    text-decoration: none;
+    position: relative;
+    left: 40px;
+    bottom: 10px;
+
+}
+
+#menu {
+    font-size: 110%;
+    font-family: 'Roboto Condensed';
+    list-style-type: none;
+    letter-spacing: 4px;
+
+}
+
+#title,
+#menu {
+    line-height: 75px;
+}
+
+
+#menu li {
+    float: right;
+    margin-right: 30px;
+}
+
+#menu a {
+    text-decoration: none;
+    color: inherit;
+}
+
+#menu a:hover {
+    border-bottom: 1px solid #515d5f;
+}
+
+.present {
+    border-bottom: 1px solid #515d5f;
+
+}
