@@ -34,6 +34,7 @@ h1 {
 #tagline {
     font-size: 70%;
     font-family: 'PT Serif';
+    font-weight: 200;
     text-transform: uppercase;
     letter-spacing: 4px;
     text-decoration: none;
