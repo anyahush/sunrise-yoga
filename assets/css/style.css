@@ -5,6 +5,7 @@
     margin: 0;
     padding: 0;
     border: 0;
+    overflow: auto;
 
 }
 
@@ -131,10 +132,43 @@ h1 {
     font-size: 200%;
 }
 
+#story,
 #ethos,
 #promise {
     padding: 75px 100px 75px 100px;
 }
+
+#sign-up {
+    text-align: center;
+    height: 220px;
+    width: 520px;
+    background-color: #ffc9ad;
+    margin-left: 400px;
+    margin-bottom: 100px;
+
+}
+
+#sign-up h3 {
+    font-size: 180%;
+    text-transform: uppercase;
+    padding: 10px;
+}
+
+#gallery img {
+    width: 400px;
+    height: auto;
+}
+
+.column {
+    float: left;
+    width: 33.33%;
+    padding: 2.5px;
+}
+
+
+
+
+
 
 
 footer {
