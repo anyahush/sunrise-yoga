@@ -24,7 +24,7 @@ h1 {
     float: left;
     text-decoration: none;
     color: inherit;
-    margin: 5px 0 0 15px;
+    margin: 5px 0 15px 15px;
 }
 
 #title {
@@ -123,7 +123,7 @@ h1 {
 }
 
 #our-ethos {
-    margin: 70px 100px;
+    margin: 40px 50px;
     text-align: center;
 }
 
@@ -143,32 +143,36 @@ h1 {
     height: 220px;
     width: 520px;
     background-color: #ffc9ad;
-    margin-left: 400px;
-    margin-bottom: 100px;
+    margin: auto;
+    width: 50%;
+    padding: 20px;
 
 }
 
 #sign-up h3 {
     font-size: 180%;
     text-transform: uppercase;
-    padding: 10px;
+    padding: 15px;
+}
+
+#gallery {
+    clear: both;
+    columns: 3;
+    column-gap: 0;
+    margin-left: 30px;
+    margin-bottom: 20px;
+
 }
 
 #gallery img {
+    object-fit: cover;
+    object-position: center;
     width: 400px;
-    height: auto;
+    height: 400px;
+    padding-top: 5px;
+
+
 }
-
-.column {
-    float: left;
-    width: 33.33%;
-    padding: 2.5px;
-}
-
-
-
-
-
 
 
 footer {
