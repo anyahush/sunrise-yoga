@@ -12,24 +12,32 @@
 body {
     font-family: "PT Serif";
     color: #515d5f;
+
+}
+
+body p {
+    line-height: 35px;
+
 }
 
 h1 {
     font-family: 'Meddon';
-    font-weight: 200;
+    font-weight: 300;
     color: #3e837b;
+    padding-bottom: 10px;
+
 }
 
 .logo {
     float: left;
     text-decoration: none;
     color: inherit;
-    margin: 5px 0 15px 15px;
+
 }
 
 #title {
     font-size: 300%;
-
+    margin: 7px 15px;
 }
 
 #tagline {
@@ -40,8 +48,8 @@ h1 {
     letter-spacing: 4px;
     text-decoration: none;
     position: relative;
-    left: 65px;
-    bottom: 10px;
+    left: 70px;
+    bottom: 30px;
 
 }
 
@@ -123,37 +131,36 @@ h1 {
 }
 
 #our-ethos {
-    margin: 40px 50px;
+    margin: 50px;
     text-align: center;
 }
 
 #our-ethos h2 {
-    font-family: 'Meddon';
+
     font-size: 200%;
+    padding: 20px;
 }
 
-#story,
-#ethos,
-#promise {
-    padding: 75px 100px 75px 100px;
+
+.ethos {
+    margin: 50px;
+    padding: 50px;
 }
 
 #sign-up {
     text-align: center;
-    height: 220px;
-    width: 520px;
-    background-color: #ffc9ad;
-    margin: auto;
-    width: 50%;
-    padding: 20px;
-
+    height: 250px;
+    width: 100%;
+    background-color: rgba(255, 201, 173, 0.5);
+    margin: 100px 0;
 }
 
 #sign-up h3 {
     font-size: 180%;
-    text-transform: uppercase;
+    margin-top: 10px;
     padding: 15px;
 }
+
 
 #gallery {
     clear: both;
@@ -170,7 +177,6 @@ h1 {
     width: 400px;
     height: 400px;
     padding-top: 5px;
-
 
 }
 
