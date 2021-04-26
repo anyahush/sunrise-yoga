@@ -5,7 +5,7 @@
     margin: 0;
     padding: 0;
     border: 0;
-    overflow: auto;
+
 
 }
 
@@ -15,10 +15,7 @@ body {
 
 }
 
-body p {
-    line-height: 35px;
 
-}
 
 h1 {
     font-family: 'Meddon';
@@ -94,12 +91,16 @@ h1 {
 
 }
 
+.paragraph-content {
+    line-height: 35px;
+}
+
 #welcome {
-    height: 600px;
+    height: 500px;
 }
 
 #intro {
-    padding-top: 120px;
+    padding-top: 80px;
     padding-left: 60px;
     width: 50%;
     float: left;
@@ -114,11 +115,11 @@ h1 {
 }
 
 #intro-image {
-    padding: 100px 100px;
+    padding: 80px 80px;
     width: 50%;
     float: right;
-    width: 400px;
-    height: 400px;
+    width: 500px;
+    height: 500px;
     margin: 0 auto;
 
 
@@ -131,7 +132,7 @@ h1 {
 }
 
 #our-ethos {
-    margin: 50px;
+
     text-align: center;
 }
 
@@ -143,13 +144,13 @@ h1 {
 
 
 .ethos {
-    margin: 50px;
-    padding: 50px;
+    margin: 30px;
+    padding: 30px;
 }
 
 #sign-up {
     text-align: center;
-    height: 250px;
+    height: 400px;
     width: 100%;
     background-color: rgba(255, 201, 173, 0.5);
     margin: 100px 0;
@@ -157,9 +158,30 @@ h1 {
 
 #sign-up h3 {
     font-size: 180%;
-    margin-top: 10px;
-    padding: 15px;
+
+    padding: 40px 0 10px 0;
 }
+
+#sign-up div {
+    padding: 10px;
+}
+
+.form-input {
+    width: 33%;
+    padding: 5px;
+    border-radius: 3px;
+}
+
+input[type=text]:focus {
+    outline-color: #3e837b;
+}
+
+input[type=email]:focus {
+    outline-color: #3e837b;
+}
+
+
+
 
 
 #gallery {
