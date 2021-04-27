@@ -88,8 +88,17 @@ h1 {
     width: 100%;
     background: url(../images/hero-image.jpg) no-repeat bottom;
     overflow: hidden;
+    background-size: cover;
+
 
 }
+
+@media only screen and (max-width: 600px) {
+    #hero-image {
+        height: 300px;
+    }
+}
+
 
 .paragraph-content {
     line-height: 35px;
@@ -100,9 +109,7 @@ h1 {
 }
 
 #intro {
-    padding-top: 80px;
-    padding-left: 60px;
-    width: 50%;
+    padding-top: 40px;
     float: left;
     margin: 0 auto;
     text-align: center;
@@ -124,6 +131,8 @@ h1 {
 
 
 }
+
+
 
 #circle-image-bg {
     background: url(../images/circle-image.jpg) no-repeat center center;
