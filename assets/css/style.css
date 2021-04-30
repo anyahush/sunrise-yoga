@@ -93,11 +93,7 @@ h1 {
 
 }
 
-@media only screen and (max-width: 600px) {
-    #hero-image {
-        height: 300px;
-    }
-}
+
 
 
 .paragraph-content {
