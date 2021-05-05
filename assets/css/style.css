@@ -368,3 +368,31 @@ ul {
 .portfolio-content {
     margin: 30px 0;
 }
+
+/*-------------------------------- Classes--*/
+
+#timetable {
+    padding: 50px;
+    margin: 20px;
+}
+
+#timetable th,
+td {
+    font-family: "PT serif", sans-serif;
+    color: #515d5f;
+    padding: 20px;
+}
+
+#yoga-types {
+    text-align: center;
+    margin: 50px 0;
+    padding: 20px;
+}
+
+#yoga-types h2 {
+    padding: 20px;
+}
+
+#yoga-types p {
+    margin: 20px;
+}
