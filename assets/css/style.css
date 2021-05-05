@@ -275,6 +275,7 @@ footer {
 
 .social-links {
     text-align: center;
+    padding: 5px;
 }
 
 .social-links li {
@@ -302,6 +303,13 @@ footer p {
     margin: 0 auto;
 }
 
+l,
+ol,
+ul {
+    margin: 0;
+
+}
+
 /*-------------------------------- Get Started Page---*/
 
 
@@ -312,16 +320,12 @@ footer p {
 }
 
 /*-------------------------------- Code amended from W3 School---*/
-.row,
-.row>.column {
-    padding: 5px;
-}
+
 
 .column {
     float: left;
     width: 33%;
 }
-
 
 .row:after {
     content: "";
@@ -349,7 +353,7 @@ footer p {
 }
 
 /* Responsive layout - makes the two columns stack on top of each other instead of next to each other */
-@media screen and (max-width: 600px) {
+@media screen and (max-width: 700px) {
     .column {
         width: 100%;
     }
@@ -358,5 +362,9 @@ footer p {
 /*-------------------------------- End of code amended from W3 School---*/
 
 #beginner-options {
-    margin: 75px 0;
+    margin: 100px 0;
+}
+
+.portfolio-content {
+    margin: 30px 0;
 }
