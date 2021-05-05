@@ -1,7 +1,7 @@
 # Sunrise Yoga
 
-Sunrise Yoga is a mobile-first website that aims to positively promote yoga, its benefits and encourage visitors to uptake classes at the studio. This website has been designed to ensure that visitors feel a sense of peace, balance and growth when exploring the site. visitors can find information on the benefits of yoga, yoga styles available, studio times and location and contact information. The primary goal of the site is to promote the studio and increase attendance at classes.
-This website has been created for my Milestone 1 visitor Centric Frontend Development Project. 
+Sunrise Yoga is a mobile-first website that aims to positively promote yoga, its benefits and encourage visitors to uptake classes at the studio. This website has been designed to ensure that visitors feel a sense of peace, balance and growth when exploring the site. Visitors can find information on the benefits of yoga, yoga styles available, studio times, location and contact information. The primary goal of the site is to promote the studio and increase attendance at classes.
+This website has been created for my Milestone 1 User Centric Frontend Development Project. 
 
 ---
 
@@ -14,8 +14,8 @@ This website has been created for my Milestone 1 visitor Centric Frontend Develo
 
 * To establish an online presence for Sunrise Yoga.
 * To enable easy access to required information throughout the site.
-* To promote the studio and classes available.
-* To provide a means of engagement for current and prospective members. 
+* To promote available classes.
+* To provide a means of engagement for current and prospective users. 
 * To provide content on yoga, styles available and practical information. 
 
 ---
@@ -39,14 +39,16 @@ This website has been created for my Milestone 1 visitor Centric Frontend Develo
     * As a first-time visitor, I want to be able to find information about yoga and styles available, so I can decide if I want to attend. 
     * As a first-time visitor, I want to be able to navigate the site easily, so I can find the information I seek. 
 
-* Returning visitors
-    * As a returning visitor, I want to be able to check up-to-date class information, so I can find the right class for me.
-    * As a returning visitor, I want to be able to contact the studio, so I can have my queries resolved. 
-    * As a returning visitor, I want to be able to sign up for a newsletter, so I can stay informed about the studio.
-    * As a returning visitor, I want to be able to find social media links, so I can continue to follow the studio.
+* All visitors
+    * As a visitor, I want to be able to check up-to-date class information, so I can find the right class for me.
+    * As a visitor, I want to be able to contact the studio, so I can have my queries resolved. 
+    * As a visitor, I want to be able to sign up for a newsletter, so I can stay informed about the studio.
+    * As a visitor, I want to be able to find social media links, so I can continue to follow the studio.
+    * As a visitor, I want to see images of the studio and classes, so I am encouraged to attend.
 
 
-**Insert opportunity goal table here**
+
+### Opportunity Goal Table
 
 | Opportunity | Importance | Viability |
 | ----------- | ---------- | --------- |

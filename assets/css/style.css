@@ -10,16 +10,32 @@
 }
 
 body {
-    font-family: "PT Serif";
+    font-family: "PT Serif", sans-serif;
     color: #515d5f;
-
 }
 
 .container-fluid {
     padding: 0;
 }
 
+h2 {
 
+    font-size: 200%;
+    padding: 20px;
+    text-align: center;
+}
+
+.content {
+    line-height: 35px;
+    text-align: center;
+}
+
+h3 {
+    text-align: center;
+    font-size: 150%;
+}
+
+/*-------------------------------- Header ---*/
 #title {
     font-size: 120%;
     font-family: 'Meddon', sans-serif;
@@ -65,7 +81,7 @@ nav.navbar.navbar-expand-md {
     }
 }
 
-
+/*-------------------------------- Hero Image ---*/
 #hero-image {
     height: 400px;
     width: 100%;
@@ -82,11 +98,38 @@ nav.navbar.navbar-expand-md {
     }
 }
 
+/*-------------------------------- Title Banner---*/
+#title-banner {
+    height: 140px;
+    width: 100%;
+    background-color: rgba(255, 201, 173, 0.5);
+    padding: 10px;
 
 
-.paragraph-content {
-    line-height: 35px;
 }
+
+#title-banner h2 {
+    color: #515d5f;
+    text-align: center;
+    font-size: 200%;
+    text-transform: uppercase;
+    letter-spacing: 4px;
+}
+
+#title-banner p {
+    color: #515d5f;
+    text-align: center;
+    font-size: 80%;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+
+    ;
+
+}
+
+/*-------------------------------- Features ---*/
+
+
 
 #welcome {
     height: 500px;
@@ -100,7 +143,7 @@ nav.navbar.navbar-expand-md {
     text-align: center;
 }
 
-#intro-title {
+#intro-title h2 {
     font-size: 150%;
     font-family: 'Meddon';
     padding: 40px;
@@ -142,17 +185,12 @@ nav.navbar.navbar-expand-md {
     }
 }
 
-#our-ethos h2 {
-
-    font-size: 200%;
-    padding: 20px;
-}
-
 
 .ethos {
     margin: 30px 0;
     padding: 30px 0;
 }
+
 
 #sign-up {
     text-align: center;
@@ -196,7 +234,7 @@ input[type=email]:focus {
     outline-color: #3e837b;
 }
 
-
+/*-------------------------------- Gallery ---*/
 #gallery {
     margin: 40px 0;
 }
@@ -227,7 +265,7 @@ input[type=email]:focus {
 }
 
 
-
+/*-------------------------------- Footer---*/
 footer {
     height: 80px;
     background-color: rgba(62, 131, 123, 0.3);
@@ -262,4 +300,63 @@ footer p {
     color: inherit;
     padding: 0;
     margin: 0 auto;
+}
+
+/*-------------------------------- Get Started Page---*/
+
+
+#get-started-image {
+    height: 400px;
+    margin: 100px 0 50px 0;
+
+}
+
+/*-------------------------------- Code amended from W3 School---*/
+.row,
+.row>.column {
+    padding: 5px;
+}
+
+.column {
+    float: left;
+    width: 33%;
+}
+
+
+.row:after {
+    content: "";
+    display: table;
+    clear: both;
+}
+
+/* Content */
+.image-content {
+    padding: 10px;
+
+}
+
+.image-content img {
+    object-fit: cover;
+    object-position: center;
+    height: 300px;
+}
+
+/* Responsive layout - makes a two column-layout instead of four columns */
+@media screen and (max-width: 900px) {
+    .column {
+        width: 50%;
+    }
+}
+
+/* Responsive layout - makes the two columns stack on top of each other instead of next to each other */
+@media screen and (max-width: 600px) {
+    .column {
+        width: 100%;
+    }
+}
+
+/*-------------------------------- End of code amended from W3 School---*/
+
+#beginner-options {
+    margin: 75px 0;
 }
