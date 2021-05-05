@@ -37,9 +37,10 @@ This website has been created for my Milestone 1 User Centric Frontend Developme
 * First-time visitors
     * As a first-time visitor, I want to understand what the site is about and who it is for. 
     * As a first-time visitor, I want to be able to find information about yoga and styles available, so I can decide if I want to attend. 
-    * As a first-time visitor, I want to be able to navigate the site easily, so I can find the information I seek. 
+   
 
 * All visitors
+    * As visitor, I want to be able to navigate the site easily, so I can find the information I seek. 
     * As a visitor, I want to be able to check up-to-date class information, so I can find the right class for me.
     * As a visitor, I want to be able to contact the studio, so I can have my queries resolved. 
     * As a visitor, I want to be able to sign up for a newsletter, so I can stay informed about the studio.
@@ -50,12 +51,14 @@ This website has been created for my Milestone 1 User Centric Frontend Developme
 
 ### Opportunity Goal Table
 
+During the initial strategy planning, the opportunities of the site were determined and values were given according to their imporance and viability at this stage.
+
 | Opportunity | Importance | Viability |
 | ----------- | ---------- | --------- |
 | Create an online presence | 5 | 5 |
 | Increase social media following | 2 | 2 |
 |Promote available classes | 5 | 5 |
-| Promote uptake of newsletter | 3 | 3 |
+| Promote uptake of newsletter | 3 | 4 |
 | Encourage user contact | 4 | 4 |
 | Provide contact information and map location | 5 | 4 |
 | Online booking system | 2 | 1 |
@@ -63,12 +66,24 @@ This website has been created for my Milestone 1 User Centric Frontend Developme
 | Testimonial page | 2 | 5 |
 | Events page | 2 | 5 |
 
+From the table/ graph, it highlights clearly what features can be successfully implemented at various stages. 
 
+| Opportunity | Release | 
+| ----------- | ---------- | 
+| Create an online presence | 1|
+| Increase social media following | 2 |
+|Promote available classes | 1 |
+| Promote uptake of newsletter | 1 |
+| Encourage user contact | 1| 
+| Provide contact information and map location | 1|
+| Online booking system | 3 | 
+| Online membership platform | 3 |
+| Testimonial page | 2|
+| Events page | 2 | 
 
 
 ## Scope Plane
 
-The scope of this project was determined by the strategy goals- **EXPAND**
  
 ### Content Requirements
 * Biography of studio
@@ -91,11 +106,49 @@ The scope of this project was determined by the strategy goals- **EXPAND**
 
 ## Surface Plane
 
-The design elements of this site have been selected to convey feelings of serenity. 
+The design elements of this site have been selected to convey feelings of serenity and ease.
 
 ### Colour Scheme 
 
-In the initial planning stages of the project, I conducted research into colours most associated with peace, balance, health and nature, as these concepts have associations with yoga and I wanted that to be a consistent message for the user. 
+In the initial planning stages of the project, I conducted research into colours most associated with peace, balance, health and nature, as these concepts have associations with yoga. I wanted this to be a consistent message for the user. 
+
+The colours chosen are:
+* #3e837b- teal colour
+* #515d5f- dark slate grey
+* rgba(255, 201, 173, 0.5) peach
+* #ee9061 apricot
+
+
+## Deployment
+
+---
+
+## Testing
+
+---
+
+## Credits
+
+
+
+### Content
+* A section in get-started.html was used from  [W3 Schools](https://www.w3schools.com/howto/howto_css_portfolio_gallery.asp ).
+
+
+
+
+### Media
+
+index.html
+* Hero image credited to Dmitriy Frantsev through Unsplash.
+* Woman practicing yoga credited to Elly Fairytale through Pexels.
+
+get-started.html
+* Woman holding yoga position on the floor credited to Rawan Yasser through Unsplash.
+* Yoga class credited to Alen Kajtezovic through Unsplash.
+* Two women practicing yoga credited to Elly Fairytal through Pexels.
+* Multiple hands on a tree credited to Shane Rounce through Unsplash.
+
 
 
 
