@@ -192,7 +192,8 @@ nav.navbar.navbar-expand-md {
 }
 
 
-#sign-up {
+#sign-up,
+#contact-form {
     text-align: center;
     height: 400px;
     width: 100%;
@@ -200,13 +201,15 @@ nav.navbar.navbar-expand-md {
     margin: 100px 0;
 }
 
-#sign-up h3 {
+#sign-up h3,
+#contact-form h3 {
     font-size: 150%;
 
     padding: 20px 0 10px 0;
 }
 
-#sign-up div {
+#sign-up div,
+#contact-form div {
     padding: 10px;
 }
 
@@ -221,7 +224,8 @@ nav.navbar.navbar-expand-md {
         width: 33%;
     }
 
-    #sign-up {
+    #sign-up,
+    #contact-form {
         padding: 20px;
     }
 }
@@ -395,4 +399,23 @@ td {
 
 #yoga-types p {
     margin: 20px;
+}
+
+
+/*-------------------------------- Contact--*/
+
+#location {
+    margin: 50px 0;
+}
+
+@media screen and (max-width: 768px) {
+    iframe {
+        height: 250px;
+        width: 250px;
+    }
+}
+
+#message-sign-up {
+    height: 200px;
+
 }
