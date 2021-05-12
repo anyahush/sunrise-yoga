@@ -35,6 +35,11 @@ h3 {
     font-size: 150%;
 }
 
+.row {
+    margin-right: 0;
+    margin-left: 0;
+}
+
 /*-------------------------------- Header ---*/
 #title {
     font-size: 120%;
@@ -54,6 +59,7 @@ h3 {
     padding-left: 10%;
 }
 
+
 nav.navbar.navbar-expand-md {
     padding: 10px 5px;
 
@@ -63,6 +69,7 @@ nav.navbar.navbar-expand-md {
     font-size: 110%;
     font-family: 'PT Serif';
     color: #515d5f;
+
 }
 
 .navbar-collapse {
@@ -76,7 +83,7 @@ nav.navbar.navbar-expand-md {
 
 @media only screen and (min-width: 768px) {
     #logo {
-        font-size: 180%;
+        font-size: 160%;
         padding-top: 5px;
     }
 }
@@ -133,7 +140,7 @@ nav.navbar.navbar-expand-md {
 
 #welcome {
     height: 500px;
-    margin: 50px 0 75px 0;
+    margin-top: 25px;
 }
 
 #intro {
@@ -144,7 +151,7 @@ nav.navbar.navbar-expand-md {
 }
 
 #intro-title h2 {
-    font-size: 150%;
+    font-size: 180%;
     font-family: 'Meddon';
     padding: 40px;
 }
@@ -161,7 +168,7 @@ nav.navbar.navbar-expand-md {
 
 @media only screen and (min-width:1024px) {
     #intro-image {
-        margin: 75px 50px;
+        margin: 25px;
     }
 }
 
@@ -175,8 +182,7 @@ nav.navbar.navbar-expand-md {
 #our-ethos {
 
     text-align: center;
-    margin: 75px 0;
-    padding-top: 60px;
+    margin: 25px 0;
 }
 
 @media only screen and (min-width:768px) and (max-width:768px) {
@@ -186,10 +192,7 @@ nav.navbar.navbar-expand-md {
 }
 
 
-.ethos {
-    margin: 30px 0;
-    padding: 30px 0;
-}
+
 
 
 #sign-up,
@@ -251,18 +254,6 @@ input[type=email]:focus {
     padding: 5px;
 }
 
-@media all and (max-width: 375px) {
-    #gallery #prayer-image {
-        width: 300px;
-        height: 300px;
-    }
-}
-
-@media all and (max-width: 768px) {
-    #downward-dog-image {
-        display: none;
-    }
-}
 
 .col-lg-4 {
     padding: 0;
@@ -363,6 +354,9 @@ ul {
     }
 }
 
+
+
+
 /*-------------------------------- End of code amended from W3 School---*/
 
 #beginner-options {
@@ -378,10 +372,16 @@ ul {
 #timetable {
     width: 100%;
     margin: 75px 0;
-    overflow: auto;
-
 }
 
+.accordion button {
+    color: #515d5f;
+}
+
+.accordion {
+    margin-top: 50px;
+    background-color: rgba(62, 131, 123, 0.5);
+}
 
 #yoga-types {
     text-align: center;
@@ -389,17 +389,14 @@ ul {
 
 }
 
-#yoga-types h2 {
-    padding: 20px;
-}
-
-#yoga-types p {
-    margin: 50px;
-}
-
-
+#yoga-types h2,
 #rates h2 {
     padding: 20px;
+}
+
+#yoga-types p,
+#rates p {
+    margin: 20px;
 }
 
 
@@ -420,7 +417,7 @@ ul {
 
 }
 
-@media screen and (max-width: 768px) {
+@media screen and (max-width: 425px) {
     #good-vibes {
         height: 300px;
         width: 200px;
@@ -444,8 +441,10 @@ ul {
     }
 }
 
-@media screen and (max-width: 425px) {
-    #contact-form {
-        height: 475px;
-    }
+#contact-form {
+    height: 575px;
+}
+
+#contact-form textarea {
+    height: auto;
 }

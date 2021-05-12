@@ -18,7 +18,7 @@
     <header>
 
 
-        <nav class="navbar navbar-expand-md navbar-light">
+        <nav class="navbar sticky-top navbar-expand-md navbar-light">
             <a class="navbar-brand" href="index.html">
                 <div id="logo">
                     <h1 id="title">Sunrise Yoga</h1>
@@ -80,76 +80,222 @@
         <section>
 
             <div class="row justify-content-center">
+                <div class="d-none d-md-block col-12">
 
-                <div id="timetable">
-                    <div class="table-responsive"></div>
-                    <table class="table table-hover">
-                        <thead>
-                            <tr>
-                                <th scope="col"></th>
-                                <th scope="col">6.30am</th>
-                                <th scope="col">11am</th>
-                                <th scope="col">5.15pm</th>
-                                <th scope="col">7.15pm</th>
-                            </tr>
-                        </thead>
-                        <tbody>
-                            <tr>
-                                <th scope="row">Mon</th>
-                                <td>Ashtanga</td>
-                                <td></td>
-                                <td>Ashtanga</td>
-                                <td>Hatha Beginner</td>
-                            </tr>
-                            <tr>
-                                <th scope="row">Tues</th>
-                                <td>Hatha</td>
-                                <td>Restorative</td>
-                                <td>Hatha</td>
-                                <td></td>
-                            </tr>
-                            <tr>
-                                <th scope="row">Wed</th>
-                                <td>Ashtanga Advanced</td>
-                                <td>Ashtanga </td>
-                                <td>Hatha</td>
-                                <td>Restorative</td>
-                            </tr>
-                            <tr>
-                                <th scope="row">Thurs</th>
-                                <td></td>
-                                <td>Hatha </td>
-                                <td>Ashtanga Beginner</td>
-                                <td></td>
-                            </tr>
-                            <tr>
-                                <th scope="row">Fri</th>
-                                <td>Ashtanga Beginner</td>
-                                <td></td>
-                                <td></td>
-                                <td>Hatha</td>
-                            </tr>
-                            <tr>
-                                <th scope="row">Sat</th>
-                                <td>Ashtanga Advanced</td>
-                                <td>Restorative</td>
-                                <td></td>
-                                <td></td>
-                            </tr>
-                            <tr>
-                                <th scope="row">Sun</th>
-                                <td>Hatha</td>
-                                <td>Restorative</td>
-                                <td></td>
-                                <td>Restorative</td>
-                            </tr>
-                        </tbody>
-                    </table>
+
+                    <div id="timetable">
+                        <div class="table-responsive"></div>
+                        <table class="table table-hover">
+                            <thead>
+                                <tr>
+                                    <th scope="col"></th>
+                                    <th scope="col">6.30am</th>
+                                    <th scope="col">11am</th>
+                                    <th scope="col">5.15pm</th>
+                                    <th scope="col">7.15pm</th>
+                                </tr>
+                            </thead>
+                            <tbody>
+                                <tr>
+                                    <th scope="row">Mon</th>
+                                    <td>Ashtanga</td>
+                                    <td></td>
+                                    <td>Ashtanga</td>
+                                    <td>Hatha Beginner</td>
+                                </tr>
+                                <tr>
+                                    <th scope="row">Tues</th>
+                                    <td>Hatha</td>
+                                    <td>Restorative</td>
+                                    <td>Hatha</td>
+                                    <td></td>
+                                </tr>
+                                <tr>
+                                    <th scope="row">Wed</th>
+                                    <td>Ashtanga Advanced</td>
+                                    <td>Ashtanga </td>
+                                    <td>Hatha</td>
+                                    <td>Restorative</td>
+                                </tr>
+                                <tr>
+                                    <th scope="row">Thurs</th>
+                                    <td></td>
+                                    <td>Hatha </td>
+                                    <td>Ashtanga Beginner</td>
+                                    <td></td>
+                                </tr>
+                                <tr>
+                                    <th scope="row">Fri</th>
+                                    <td>Ashtanga Beginner</td>
+                                    <td></td>
+                                    <td></td>
+                                    <td>Hatha</td>
+                                </tr>
+                                <tr>
+                                    <th scope="row">Sat</th>
+                                    <td>Ashtanga Advanced</td>
+                                    <td>Restorative</td>
+                                    <td></td>
+                                    <td></td>
+                                </tr>
+                                <tr>
+                                    <th scope="row">Sun</th>
+                                    <td>Hatha</td>
+                                    <td>Restorative</td>
+                                    <td></td>
+                                    <td>Restorative</td>
+                                </tr>
+                            </tbody>
+                        </table>
+                    </div>
                 </div>
-
 
             </div>
 
+            <!-- Modified Bootstrap Accordian-->
+            <div class="row">
+                <div class="col-12 d-md-none">
+
+
+                    <div class="accordion" id="accordionExample">
+                        <div class="card">
+                            <div class="card-header" id="headingOne">
+                                <h2 class="mb-0">
+                                    <button class="btn btn-link btn-block text-left" type="button"
+                                        data-toggle="collapse" data-target="#collapseOne" aria-expanded="true"
+                                        aria-controls="collapseOne">
+                                        Monday
+                                    </button>
+                                </h2>
+                            </div>
+
+                            <div id="collapseOne" class="collapse show" aria-labelledby="headingOne"
+                                data-parent="#accordionExample">
+                                <div class="card-body">
+                                    Some placeholder content for the first accordion panel. This panel is shown by
+                                    default,
+                                    thanks to the <code>.show</code> class.
+                                </div>
+                            </div>
+                        </div>
+                        <div class="card">
+                            <div class="card-header" id="headingTwo">
+                                <h2 class="mb-0">
+                                    <button class="btn btn-link btn-block text-left collapsed" type="button"
+                                        data-toggle="collapse" data-target="#collapseTwo" aria-expanded="false"
+                                        aria-controls="collapseTwo">
+                                        Tuesday
+                                    </button>
+                                </h2>
+                            </div>
+                            <div id="collapseTwo" class="collapse" aria-labelledby="headingTwo"
+                                data-parent="#accordionExample">
+                                <div class="card-body">
+                                    Some placeholder content for the second accordion panel. This panel is hidden by
+                                    default.
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="card">
+                            <div class="card-header" id="headingThree">
+                                <h2 class="mb-0">
+                                    <button class="btn btn-link btn-block text-left collapsed" type="button"
+                                        data-toggle="collapse" data-target="#collapseThree" aria-expanded="false"
+                                        aria-controls="collapseThree">
+                                        Wednesday
+                                    </button>
+                                </h2>
+                            </div>
+                            <div id="collapseThree" class="collapse" aria-labelledby="headingThree"
+                                data-parent="#accordionExample">
+                                <div class="card-body">
+                                    And lastly, the placeholder content for the third and final accordion panel. This
+                                    panel is
+                                    hidden by default.
+                                </div>
+                            </div>
+                        </div>
+                        <div class="card">
+                            <div class="card-header" id="headingThree">
+                                <h2 class="mb-0">
+                                    <button class="btn btn-link btn-block text-left collapsed" type="button"
+                                        data-toggle="collapse" data-target="#collapseThree" aria-expanded="false"
+                                        aria-controls="collapseThree">
+                                        Thursday
+                                    </button>
+                                </h2>
+                            </div>
+                            <div id="collapseThree" class="collapse" aria-labelledby="headingThree"
+                                data-parent="#accordionExample">
+                                <div class="card-body">
+                                    And lastly, the placeholder content for the third and final accordion panel. This
+                                    panel is
+                                    hidden by default.
+                                </div>
+                            </div>
+                        </div>
+                        <div class="card">
+                            <div class="card-header" id="headingThree">
+                                <h2 class="mb-0">
+                                    <button class="btn btn-link btn-block text-left collapsed" type="button"
+                                        data-toggle="collapse" data-target="#collapseThree" aria-expanded="false"
+                                        aria-controls="collapseThree">
+                                        Friday
+                                    </button>
+                                </h2>
+                            </div>
+                            <div id="collapseThree" class="collapse" aria-labelledby="headingThree"
+                                data-parent="#accordionExample">
+                                <div class="card-body">
+                                    And lastly, the placeholder content for the third and final accordion panel. This
+                                    panel is
+                                    hidden by default.
+                                </div>
+                            </div>
+                        </div>
+                        <div class="card">
+                            <div class="card-header" id="headingThree">
+                                <h2 class="mb-0">
+                                    <button class="btn btn-link btn-block text-left collapsed" type="button"
+                                        data-toggle="collapse" data-target="#collapseThree" aria-expanded="false"
+                                        aria-controls="collapseThree">
+                                        Saturday
+                                    </button>
+                                </h2>
+                            </div>
+                            <div id="collapseThree" class="collapse" aria-labelledby="headingThree"
+                                data-parent="#accordionExample">
+                                <div class="card-body">
+                                    And lastly, the placeholder content for the third and final accordion panel. This
+                                    panel is
+                                    hidden by default.
+                                </div>
+                            </div>
+                        </div>
+                        <div class="card">
+                            <div class="card-header" id="headingThree">
+                                <h2 class="mb-0">
+                                    <button class="btn btn-link btn-block text-left collapsed" type="button"
+                                        data-toggle="collapse" data-target="#collapseThree" aria-expanded="false"
+                                        aria-controls="collapseThree">
+                                        Sunday
+                                    </button>
+                                </h2>
+                            </div>
+                            <div id="collapseThree" class="collapse" aria-labelledby="headingThree"
+                                data-parent="#accordionExample">
+                                <div class="card-body">
+                                    And lastly, the placeholder content for the third and final accordion panel. This
+                                    panel is
+                                    hidden by default.
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <!-- /Modified Bootstrap Accordian-->
+            </div>
             <div class="row">
                 <div class="col-12">
 
@@ -226,7 +372,7 @@
 
         <div class="row">
 
-            <div class="col-12 col-md-6">
+            <div class="col-12 col-lg-6">
                 <div id="rates">
                     <h2>Rates</h2>
                     <p class="content">
@@ -248,7 +394,7 @@
                 </div>
             </div>
 
-            <div class="col-12 col-md-6">
+            <div class="col-12 col-lg-6 justify-content-center ">
                 <div id="good-vibes-image">
                     <img src="assets/images/good-vibes-sign.jpg" alt="Sign reading 'Good Vibes Only'" class="img-fluid"
                         id="good-vibes">

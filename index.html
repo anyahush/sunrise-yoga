@@ -19,35 +19,37 @@
     <header>
 
 
-        <nav class="navbar navbar-expand-md navbar-light">
-            <a class="navbar-brand" href="index.html">
-                <div id="logo">
-                    <h1 id="title">Sunrise Yoga</h1>
-                    <p id="tagline">Mind.Body.Soul</p>
+        <nav class="navbar sticky-top navbar-expand-md navbar-light">
+            <div class="container-fluid">
+                <a class="navbar-brand" href="index.html">
+                    <div id="logo">
+                        <h1 id="title">Sunrise Yoga</h1>
+                        <p id="tagline">Mind.Body.Soul</p>
+                    </div>
+                </a>
+                <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbardropdown"
+                    aria-controls="navbardropdown" aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+
+                <div class="collapse navbar-collapse" id="navbardropdown">
+                    <ul class="navbar-nav ml-auto">
+                        <li class="nav-item active">
+                            <a class="nav-link" href="index.html" id="navbardropdown">Home <span
+                                    class="sr-only">(current)</span></a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="get-started.html">Get Started</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="classes.html">Classes</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="contact.html">Contact</a>
+                        </li>
+                    </ul>
+
                 </div>
-            </a>
-            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbardropdown"
-                aria-controls="navbardropdown" aria-expanded="false" aria-label="Toggle navigation">
-                <span class="navbar-toggler-icon"></span>
-            </button>
-
-            <div class="collapse navbar-collapse" id="navbardropdown">
-                <ul class="navbar-nav ml-auto">
-                    <li class="nav-item active">
-                        <a class="nav-link" href="index.html" id="navbardropdown">Home <span
-                                class="sr-only">(current)</span></a>
-                    </li>
-                    <li class="nav-item">
-                        <a class="nav-link" href="get-started.html">Get Started</a>
-                    </li>
-                    <li class="nav-item">
-                        <a class="nav-link" href="classes.html">Classes</a>
-                    </li>
-                    <li class="nav-item">
-                        <a class="nav-link" href="contact.html">Contact</a>
-                    </li>
-                </ul>
-
             </div>
         </nav>
 
@@ -237,12 +239,12 @@
                 <form>
 
                     <div>
-                        <input type="text" id="name-sign-up" class="form-input" required placeholder="Name">
+                        <input type="text" id="name-sign-up" class="form-input" required placeholder="Name" required>
 
                         <br>
                     </div>
                     <div>
-                        <input type="email" id="email-sign-up" class="form-input" required placeholder="Email">
+                        <input type="email" id="email-sign-up" class="form-input" required placeholder="Email" required>
 
                         <br>
                     </div>
@@ -276,14 +278,14 @@
 
                 </div>
 
-                <div class="d-none d-lg-block col-lg-4" class="img-fluid">
+                <div class="col-12 justisfy-content-center col-md-6 col-lg-4" class="img-fluid">
 
 
                     <img src="assets/images/prayer.jpg" alt="A black and white photograph of a woman praying"
                         style="width: 400px; height: 800px;" class="img-fluid">
 
                 </div>
-                <div class="col-12 d-flex justify-content-center d-lg-block col-lg-4">
+                <div class="d-none d-md-block col-md-6 col-lg-4">
 
                     <img src="assets/images/prayer-behind.jpg" alt="A woman sitting practicing reverse prayer pose"
                         class="img-fluid" id="prayer-image">
