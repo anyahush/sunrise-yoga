@@ -376,21 +376,17 @@ ul {
 /*-------------------------------- Classes--*/
 
 #timetable {
-    padding: 50px;
-    margin: 20px;
+    width: 100%;
+    margin: 75px 0;
+    overflow: auto;
+
 }
 
-#timetable th,
-td {
-    font-family: "PT serif", sans-serif;
-    color: #515d5f;
-    padding: 20px;
-}
 
 #yoga-types {
     text-align: center;
-    margin: 50px 0;
-    padding: 20px;
+    margin: 75px 0;
+
 }
 
 #yoga-types h2 {
@@ -398,8 +394,41 @@ td {
 }
 
 #yoga-types p {
-    margin: 20px;
+    margin: 50px;
 }
+
+
+#rates h2 {
+    padding: 20px;
+}
+
+
+
+@media screen and (min-width: 768px) {
+    #rates {
+        padding: 50px;
+    }
+}
+
+#good-vibes {
+    height: 650px;
+    width: 500px;
+}
+
+#good-vibes-image {
+    margin: 20px;
+
+}
+
+@media screen and (max-width: 768px) {
+    #good-vibes {
+        height: 300px;
+        width: 200px;
+
+    }
+}
+
+
 
 
 /*-------------------------------- Contact--*/
@@ -412,5 +441,11 @@ td {
     iframe {
         height: 250px;
         width: 250px;
+    }
+}
+
+@media screen and (max-width: 425px) {
+    #contact-form {
+        height: 475px;
     }
 }
