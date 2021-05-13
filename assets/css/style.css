@@ -19,6 +19,7 @@ body {
     padding: 0;
 }
 
+
 h2 {
 
     font-size: 200%;
@@ -141,6 +142,13 @@ h3 {
 
 #welcome {
     height: 400px;
+
+}
+
+@media screen and (max-width: 425px) {
+    #welcome {
+        height: 600px;
+    }
 }
 
 #intro {
@@ -156,6 +164,30 @@ h3 {
     padding: 40px;
 }
 
+/*
+#intro-image {
+
+    width: 50%;
+    float: right;
+    width: 400px;
+    height: 400px;
+    margin: 50px 150px;
+
+}
+
+@media only screen and (min-width:1024px) {
+    #intro-image {
+        margin: 25px;
+    }
+}
+
+
+#circle-image-bg {
+    background: url(../images/circle-image.jpg) no-repeat center center;
+    height: 100%;
+    border-radius: 50%;
+}
+*/
 
 #our-ethos {
 
@@ -279,8 +311,14 @@ ul {
 
 #get-started-image {
     height: 400px;
-    margin: 100px 0 50px 0;
+    margin: 140px;
+}
 
+@media screen and (min-width: 1440px) {
+    #get-started-image {
+        height: 500px;
+        margin: 200px;
+    }
 }
 
 /*-------------------------------- Code amended from W3 School---*/
@@ -309,19 +347,26 @@ ul {
     height: 300px;
 }
 
-/* Responsive layout - makes a two column-layout instead of four columns */
+
 @media screen and (max-width: 900px) {
     .column {
         width: 50%;
     }
 }
 
-/* Responsive layout - makes the two columns stack on top of each other instead of next to each other */
+@media screen and (min-width:768px) and (max-width: 768px) {
+    #community {
+        width: 100%;
+        text-align: center;
+    }
+}
+
 @media screen and (max-width: 700px) {
     .column {
         width: 100%;
     }
 }
+
 
 
 
@@ -380,6 +425,7 @@ ul {
 }
 
 #yoga-types {
+    margin: 25px 0;
     text-align: center;
 
 }
@@ -408,7 +454,9 @@ ul {
 }
 
 @media screen and (min-width: 768px) and (max-width: 1440px) {
-    #rates {
+
+    #practical-info-1,
+    #practical-info-2 {
         padding: 0 25px;
     }
 }
@@ -419,20 +467,15 @@ ul {
         width: 600px;
     }
 
-    #rates {
-        padding: 0 75px;
+    #practical-info-1,
+    #practical-info-2 {
+        padding: 50px;
+        margin-left: 150px;
     }
-
-    #rates h2,
-    #rates p {
-        margin: 50px;
-    }
-
-
 }
 
 #practical-info {
-    margin: 50px 0;
+    margin: 75px 0;
 }
 
 

@@ -19,34 +19,36 @@
 
 
         <nav class="navbar navbar-expand-md navbar-light">
-            <a class="navbar-brand" href="index.html">
-                <div id="logo">
-                    <h1 id="title">Sunrise Yoga</h1>
-                    <p id="tagline">Mind.Body.Soul</p>
+            <div class="container-fluid">
+                <a class="navbar-brand" href="index.html">
+                    <div id="logo">
+                        <h1 id="title">Sunrise Yoga</h1>
+                        <p id="tagline">Mind.Body.Soul</p>
+                    </div>
+                </a>
+                <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbardropdown"
+                    aria-controls="navbardropdown" aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+
+                <div class="collapse navbar-collapse" id="navbardropdown">
+                    <ul class="navbar-nav ml-auto">
+                        <li class="nav-item active">
+                            <a class="nav-link" href="index.html" id="navbardropdown">Home <span
+                                    class="sr-only">(current)</span></a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="get-started.html">Get Started</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="classes.html">Classes</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="contact.html">Contact</a>
+                        </li>
+                    </ul>
+
                 </div>
-            </a>
-            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbardropdown"
-                aria-controls="navbardropdown" aria-expanded="false" aria-label="Toggle navigation">
-                <span class="navbar-toggler-icon"></span>
-            </button>
-
-            <div class="collapse navbar-collapse" id="navbardropdown">
-                <ul class="navbar-nav m-auto">
-                    <li class="nav-item active">
-                        <a class="nav-link" href="index.html" id="navbardropdown">Home <span
-                                class="sr-only">(current)</span></a>
-                    </li>
-                    <li class="nav-item">
-                        <a class="nav-link" href="get-started.html">Get Started</a>
-                    </li>
-                    <li class="nav-item">
-                        <a class="nav-link" href="classes.html">Classes</a>
-                    </li>
-                    <li class="nav-item">
-                        <a class="nav-link" href="contact.html">Contact</a>
-                    </li>
-                </ul>
-
             </div>
         </nav>
 
@@ -80,7 +82,7 @@
 
         <section id="get-started">
             <div class="row justify-content-center">
-                <div class="d-none d-lg-block col-lg-12 offset-5">
+                <div class="d-none d-lg-block col-lg-12">
 
                     <img src="assets/images/get-started.jpg" alt="girl in a seated yoga position" class="img-fluid"
                         id="get-started-image">
@@ -106,8 +108,8 @@
 
         <!-- Code amended from W3 School-->
         <section id="beginner-options">
-            <div class="row">
-                <div class="col-12">
+            <div class="row justify-content-center">
+                <div class=" col-12">
                     <div class="column">
                         <div class="image-content">
 
@@ -135,29 +137,33 @@
                             </div>
                         </div>
                     </div>
-                    <div class="column">
+
+                    <div class="column" id="community">
                         <div class="image-content">
-                            <div id="community">
-                                <img src="assets/images/community.jpg"
-                                    alt="A group of people raising their hands infront of a sunrise" style="width:100%">
-                                <div class="portfolio-content">
-                                    <h3>Get involved in our community</h3>
+
+                            <img src="assets/images/community.jpg"
+                                alt="A group of people raising their hands infront of a sunrise" style="width:100%">
+                            <div class="portfolio-content">
+                                <h3>Get involved in our community</h3>
+                                <br>
+                                <p>Being part of a community is a central value at Sunrise Yoga and we want our
+                                    friends
+                                    of the studio to be part of one to. From coffee mornings to helping out at local
+                                    fundraisers to yoga retreats, we get involved in a variety of ways. To stay
+                                    up-to-date, sign up to our newsletter!
                                     <br>
-                                    <p>Being part of a community is a central value at Sunrise Yoga and we want our
-                                        friends
-                                        of the studio to be part of one to. From coffee mornings to helping out at local
-                                        fundraisers to yoga retreats, we get involved in a variety of ways. To stay
-                                        up-to-date, sign up to our newsletter!
-                                        <a class="btn-sm btn-dark" href="index.html#sign-up" role="button"> Sign up!</a>
-                                </div>
+                                    <a class="btn-sm btn-dark" href="index.html#sign-up" role="button"> Sign
+                                        up!</a>
+
                             </div>
                         </div>
                     </div>
                 </div>
             </div>
-        </section>
+    </div>
+    </section>
 
-        <!-- End of W3 Code -->
+    <!-- End of W3 Code -->
     </div>
 
 
