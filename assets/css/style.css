@@ -12,6 +12,7 @@
 body {
     font-family: "PT Serif", sans-serif;
     color: #515d5f;
+    overflow-x: hidden;
 }
 
 .container-fluid {
@@ -59,10 +60,12 @@ h3 {
     padding-left: 10%;
 }
 
-
-nav.navbar.navbar-expand-md {
-    padding: 10px 5px;
-
+.navbar {
+    position: fixed;
+    top: 0;
+    background-color: white;
+    width: 100%;
+    z-index: 1;
 }
 
 .navbar-nav {
@@ -110,9 +113,7 @@ nav.navbar.navbar-expand-md {
     height: 140px;
     width: 100%;
     background-color: rgba(255, 201, 173, 0.5);
-    padding: 10px;
-
-
+    margin-top: 120px;
 }
 
 #title-banner h2 {
@@ -374,37 +375,50 @@ ul {
     margin: 75px 0;
 }
 
-.accordion button {
+.accordion {
+    margin-top: 50px;
+}
+
+.card {
+    margin: 10px;
+}
+
+.card-header {
+    background-color: rgba(62, 131, 123, 0.2);
+}
+
+.mb-0 {
+    font-family: "Meddon", sans-serif;
+    font-size: medium;
+    text-align: center;
+}
+
+.btn-link {
     color: #515d5f;
 }
 
-.accordion {
-    margin-top: 50px;
-    background-color: rgba(62, 131, 123, 0.5);
+.btn-link:focus {
+    text-decoration: none;
+
+}
+
+.btn-link:hover {
+    color: rgb(240, 170, 135);
+    text-decoration: none;
+}
+
+.btn:focus {
+    box-shadow: none;
 }
 
 #yoga-types {
     text-align: center;
-    margin: 75px 0;
 
 }
 
 #yoga-types h2,
-#rates h2 {
-    padding: 20px;
-}
-
-#yoga-types p,
-#rates p {
-    margin: 20px;
-}
-
-
-
-@media screen and (min-width: 768px) {
-    #rates {
-        padding: 50px;
-    }
+#yoga-types p {
+    margin: 0 25px;
 }
 
 #good-vibes {
@@ -419,13 +433,39 @@ ul {
 
 @media screen and (max-width: 425px) {
     #good-vibes {
-        height: 300px;
-        width: 200px;
+        height: 350px;
+        width: 250px;
 
     }
 }
 
+@media screen and (min-width: 768px) and (max-width: 1440px) {
+    #rates {
+        padding: 0 25px;
+    }
+}
 
+@media screen and (min-width: 1440px) {
+    #good-vibes {
+        height: 800px;
+        width: 600px;
+    }
+
+    #rates {
+        padding: 0 75px;
+    }
+
+    #rates h2,
+    #rates p {
+        margin: 50px;
+    }
+
+
+}
+
+#practical-info {
+    margin: 50px 0;
+}
 
 
 /*-------------------------------- Contact--*/
