@@ -140,8 +140,7 @@ h3 {
 
 
 #welcome {
-    height: 500px;
-    margin-top: 25px;
+    height: 400px;
 }
 
 #intro {
@@ -157,43 +156,12 @@ h3 {
     padding: 40px;
 }
 
-#intro-image {
-
-    width: 50%;
-    float: right;
-    width: 400px;
-    height: 400px;
-    margin: 50px 150px;
-
-}
-
-@media only screen and (min-width:1024px) {
-    #intro-image {
-        margin: 25px;
-    }
-}
-
-
-#circle-image-bg {
-    background: url(../images/circle-image.jpg) no-repeat center center;
-    height: 100%;
-    border-radius: 50%;
-}
 
 #our-ethos {
 
     text-align: center;
     margin: 25px 0;
 }
-
-@media only screen and (min-width:768px) and (max-width:768px) {
-    #our-ethos {
-        margin: 300px 0 50px 0;
-    }
-}
-
-
-
 
 
 #sign-up,
@@ -361,7 +329,7 @@ ul {
 /*-------------------------------- End of code amended from W3 School---*/
 
 #beginner-options {
-    margin: 100px 0;
+    margin: 50px 0;
 }
 
 .portfolio-content {
@@ -474,12 +442,23 @@ ul {
     margin: 50px 0;
 }
 
-@media screen and (max-width: 768px) {
+#location h2 {
+    padding: 0;
+}
+
+#location p {
+    margin: 40px 0;
+}
+
+
+
+@media screen and (max-width: 425px) {
     iframe {
         height: 250px;
         width: 250px;
     }
 }
+
 
 #contact-form {
     height: 575px;
