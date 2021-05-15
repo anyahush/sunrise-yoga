@@ -103,6 +103,26 @@ From the table/ graph, it highlights clearly what features can be successfully i
 ## Structure Plane
 
 
+## Skeleton Plane
+
+
+### Mobile Wireframes
+- [Mobile Home Page](.../readme-images/wireframes/ms1-mobile-home-page.png)
+- [Mobile Get Started Page](assets/readme-images/wireframes/ms1-mobile-page1.png)
+- [Mobile Classes Page](assets/readme-images/wireframes/ms1-mobile-page2.png)
+- [Mobile Contact Page](assets/readme-images/wireframes/ms1-mobile-page3.png)
+
+### Tablet Wireframes
+- [Tablet Home Page](assets/readme-images/wireframes/MS1 Tablet Home Page.pdf)
+- [Tablet Get StartedPage](assets/readme-images/wireframes/ms1-tablet-page1.png)
+- [Tablet Classes Page](assets/readme-images/wireframes/ms1-tablet-page2.png)
+- [Tablet Contact Page](assets/readme-images/wireframes/ms1-tablet-page3.png)
+
+### Desktop Wireframes
+- [Desktop Home Page](assets/readme-images/wireframes/ms1-desktop-home-page.png)
+- [Desktop Get Started Page](assets/readme-images/wireframes/ms1-desktop-page1.png)
+- [Desktop Classes Page](assets/readme-images/wireframes/ms1-desktop-page2.png)
+- [Desktop Contact Page](assets/readme-images/wireframes/ms1-desktop-page3.png)
 
 ## Surface Plane
 
