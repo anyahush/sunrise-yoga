@@ -1,9 +1,12 @@
+[View the live site here](https://anyahush.github.io/sunrise-yoga/)
+
+
 # Sunrise Yoga
 
-Sunrise Yoga is a mobile-first website that aims to positively promote yoga, its benefits and encourage visitors to uptake classes at the studio. This website has been designed to ensure that visitors feel a sense of peace, balance and growth when exploring the site. Visitors can find information on the benefits of yoga, yoga styles available, studio times, location and contact information. The primary goal of the site is to promote the studio and increase attendance at classes.
-This website has been created for my Milestone 1 User Centric Frontend Development Project. 
+Sunrise Yoga is a mobile-first website that aims to positively promote yoga, its benefits and encourage visitors to uptake classes at the studio. Yoga has been practiced for over 5,000 years and continues to bring strength, balance and inner peace to people and communities today. Regular yoga practice can not only help manage stress and anxiety, it can help regulate hormones, reduce blood pressure, improve cardio fitness, balance and coordination, among other benefits.
 
-Live website deployed [here](https://anyahush.github.io/sunrise-yoga/)
+This website has been designed to ensure that visitors feel a sense of peace, balance and growth when exploring the site. Visitors can find information on the benefits of yoga, yoga styles available, studio times, location and contact information. The primary goal of the site is to promote the studio and increase attendance at classes.
+This website has been created for my Milestone 1 User Centric Frontend Development Project. 
 ---
 
 ## Table of Contents
@@ -25,6 +28,8 @@ Live website deployed [here](https://anyahush.github.io/sunrise-yoga/)
 
 
 ## Strategy Plane
+
+&nbsp;
 
 
 ### Client Goals
@@ -48,6 +53,7 @@ Live website deployed [here](https://anyahush.github.io/sunrise-yoga/)
     * As a visitor, I want to be able to find social media links, so I can continue to follow the studio.
     * As a visitor, I want to see images of the studio and classes, so I am encouraged to attend.
 
+&nbsp;
 
 
 ### Opportunity Goal Table
@@ -67,11 +73,12 @@ During the initial strategy planning, the opportunities of the site were determi
 | 9. Online membership platform | 1 | 1 |
 | 10. Events page | 2 | 5 |
 
-From the table/ graph, it highlights clearly what features can be successfully implemented at various stages. 
-
-![Importance-Viability Graph](readme-images/meta-chart.png)
+&nbsp;
 
 
+<img src="assets/readme-images/meta-chart.png" alt="Importance-Viability Graph" width="800" height="600"/>
+
+&nbsp;
 
 ## Scope Plane
 
@@ -90,25 +97,57 @@ During the strategy stage features were mapped according to their importance and
 | Online membership platform | 3|
 | Events page | 2 | 
 
+&nbsp;
 
  
 ### Existing Features
-* Biography of studio
-* Information about what yoga is and its benefits
-* Class information and timetabling 
-* Images showcasing the studio and classes available
-* Opportunity to sign up for monthly newsletter
-* Contact form
-* Studio contact information and location
-* Fully responsive mobile-first design
-* Easy and seamless navigation throughout
-* Links to social media accounts
 
-### Features Left to Implement
-* Testimonial page
-* Events page
-* Online booking system
-* Online membership platform
+#### Mobile-first Responsive Design
+
+This website has been developed with mobile-first design at the centre of the process. To ensure that users can easily, efficiently and enjoyable use the website across different devices, the design and features have been adapted accordingly. 
+
+#### Navigation Bar
+
+The navigation menu is featured across all pages and remains at the top of the page, so the user doesn't have to scroll to the top return to the menu options. Users can see the different page options, with the page they are currently viewing emphasised. By having the navigation bar at the top of every page ensures that the user can find what they are looking for quickly, creating a good user experience.
+
+#### Landing Page
+
+The landing page introduces the user to Sunrise Yoga. It features a hero image of a woman practicing yoga. This is a striking image, that quickly indicates to the user that the website is related to yoga. Additionally, there is a welcome message that introduces the user to site. The welcome message also includes a button that links to the Get Started page, where new users can find out more about starting yoga.
+
+
+#### Our Ethos Section
+
+The Our Ethos section describes to the user about the ethos, values and history of the studio. This builds a strong brand for the studio and trust with the users. By giving the users context of the studio, it encourages users to further explore the website and book classes at the studio.
+
+
+#### Newsletter Sign-Up
+
+On the landing page there is a sign-up form where users can input there details and  in return will receive a monthly newsletter containing further information and news about the studio. 
+
+#### Gallery
+
+At the bottom of the landing page there is a gallery. These images are a mixture of people practicing yoga and of the studio. The images convey to users what it would be like if they attended and what yoga can look like. By showing users what the classes will look like it encourages users to attend as it de-mystifies any worries about starting yoga or a new class. 
+
+#### Footer
+
+The footer of the website remains the same throughout the site. This continuity ensures that the user can find what they are looking for quickly, creating a good user experience. The footer contains [Font Awesome](https://fontawesome.com/) icons for social media links to the studio's social media accounts. These sites open on a seperate page when clicked. By having social media links easily accessible throughout the site means that users can continue to follow the studio.
+
+#### Get Started Page
+
+The second page is called Get Started and it specifically targets people who haven't done yoga before or haven't done it in a long time. This page includes information on starting yoga and what beginner options are available, along with supporting images. Having this dedicated page on starting yoga, allows new users to navigate the site easily.
+
+#### Class Timetable
+
+A table is used to display the class timetable. This has been amended to accordion style for smaller screens, so that users are not required to use a horizontal scroll. The class days, times and levels are shown, so users can decide what class they would like to attend. Information on the different styles available, cost and what to bring is also included to ensure that the user if fully informed.
+
+#### Location Information 
+
+On the final page the location information of the studio and map are dislayed. The map helps users to visually understand where the studio is. The map can also be clicked on and enlarged. The supporting information tells users about parking and transport options. This practical information is important in ensuring the user is fully informed.
+
+
+#### Contact Form
+
+The contact form allows users to contact the studio regarding any questions, queries or issues. The form allows users to personalise the message, rather than predetermined options. The studio contact information is also provided incase a user would prefer to directly call or email the studio.
 
 ## Structure Plane
 
@@ -117,22 +156,57 @@ During the strategy stage features were mapped according to their importance and
 
 
 ### Mobile Wireframes
-- [Mobile Home Page](.../readme-images/wireframes/ms1-mobile-home-page.png)
+- [Mobile Home Page](assets/readme-images/wireframes/ms1-mobile-home-page.png)
 - [Mobile Get Started Page](assets/readme-images/wireframes/ms1-mobile-page1.png)
 - [Mobile Classes Page](assets/readme-images/wireframes/ms1-mobile-page2.png)
 - [Mobile Contact Page](assets/readme-images/wireframes/ms1-mobile-page3.png)
 
 ### Tablet Wireframes
-- [Tablet Home Page](../readme-images/wireframes/ms1-tablet-home-page)
-- [Tablet Get StartedPage](../readme-images/wireframes/ms1-tablet-page1.png)
-- [Tablet Classes Page](../readme-images/wireframes/ms1-tablet-page2.png)
-- [Tablet Contact Page](../readme-images/wireframes/ms1-tablet-page3.png)
+- [Tablet Home Page](assets/readme-images/wireframes/ms1-tablet-home-page.png)
+- [Tablet Get StartedPage](assets/readme-images/wireframes/ms1-tablet-page1.png)
+- [Tablet Classes Page](assets/readme-images/wireframes/ms1-tablet-page2.png)
+- [Tablet Contact Page](assets/readme-images/wireframes/ms1-tablet-page3.png)
 
 ### Desktop Wireframes
-- [Desktop Home Page](../readme-images/wireframes/ms1-desktop-home-page.png)
-- [Desktop Get Started Page](../readme-images/wireframes/ms1-desktop-page1.png)
-- [Desktop Classes Page](../readme-images/wireframes/ms1-desktop-page2.png)
-- [Desktop Contact Page](../readme-images/wireframes/ms1-desktop-page3.png)
+- [Desktop Home Page](assets/readme-images/wireframes/ms1-desktop-home-page.png)
+- [Desktop Get Started Page](assets/readme-images/wireframes/ms1-desktop-page1.png)
+- [Desktop Classes Page](assets/readme-images/wireframes/ms1-desktop-page2.png)
+- [Desktop Contact Page](assets/readme-images/wireframes/ms1-desktop-page3.png)
+
+### Changes to Wireframes
+
+During the development process some changes were made to the initial wireframes.
+
+1. Decorative image on landing page
+&nbsp;
+In the initial wireframe a decorative circle image was going to be displayed. During the development process, the alignment and position did not contribute to a good user experience. As the image was decorative and not informative or essential the image was removed. 
+
+2. Modal
+&nbsp;
+Initially the sign-up box for the monthly newsletter was going to be a modal box. When implementing it did not flow properly on the page. A coloured banner containing the sign-up form was used instead. This is eye-catching for the user and doesn't take away from the overall feel of the site or the value of the sign-up form.
+
+3. Additional paragraph in landing page
+&nbsp;
+A paragraph called "Our story" was added during development. This gives the user history to how the studio came about and is important for giving context.
+
+4. Gallery
+&nbsp;
+The number of images displayed on a tablet screen changed to include more images to ensure the space is used creatively and appropriately.
+
+
+5. Get Started page
+&nbsp;
+The alignment and positioning of information and images on tablet screens changed from single-stacked to a row with two columns and a seperate full-width column. This is better UX design, ensuring there isn't any empty spaces.
+
+6. Class Timetable
+&nbsp;
+The class timetable changed to accordion stlye for screens less than 768px. The initial table meant that on smaller screens the user would have to horizontally scroll. The accordion style was implemented to improve the user experience.
+
+7. Position of contact form
+&nbsp;
+The position and style of the contact form changed during the development process. Initially it was a stand-alone form, it now uses the same styling as the sign-up form. This continuity is good for the user.
+
+
 
 ## Surface Plane
 
@@ -144,7 +218,10 @@ In the initial planning stages of the project, I conducted research into colours
 
 [Coolors](https://coolors.co/) was used at first to establish a combination of colours that compliment each other. 
 
-![Coolors Colour Palette](../readme-images/ms1-colours.png)
+
+<img src="assets/readme-images/ms1-colours.png" alt="Colour Chart" width="800" height="600"/>
+
+&nbsp;
 
 After further research and exploration, the final colours chosen are as below. 
 
@@ -197,6 +274,7 @@ A clone of the repository can be made, which will create a local copy on your ow
 
 ## Testing
 
+
 ---
 
 ## Credits
@@ -205,6 +283,7 @@ A clone of the repository can be made, which will create a local copy on your ow
 
 ### Content
 * A section in get-started.html was used from  [W3 Schools](https://www.w3schools.com/howto/howto_css_portfolio_gallery.asp ).
+* A section of text content was used from [Mind Body Green](https://www.mindbodygreen.com/articles/the-11-major-types-of-yoga-explained-simply).
 
 
 
