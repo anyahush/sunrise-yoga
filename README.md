@@ -3,9 +3,7 @@
 
 # Sunrise Yoga
 
-Sunrise Yoga is a mobile-first website that aims to positively promote yoga, its benefits and encourage visitors to uptake classes at the studio. Yoga has been practiced for over 5,000 years and continues to bring strength, balance and inner peace to people and communities today. Regular yoga practice can not only help manage stress and anxiety, it can help regulate hormones, reduce blood pressure, improve cardio fitness, balance and coordination, among other benefits.
-
-This website has been designed to ensure that visitors feel a sense of peace, balance and growth when exploring the site. Visitors can find information on the benefits of yoga, yoga styles available, studio times, location and contact information. The primary goal of the site is to promote the studio and increase attendance at classes.
+Sunrise Yoga is a mobile-first website that aims to positively promote yoga, its benefits and encourage visitors to uptake classes at the studio. Yoga has been practiced for over 5,000 years and continues to bring strength, balance and inner peace to people and communities today. Regular yoga practice can not only help manage stress and anxiety, it can help regulate hormones, reduce blood pressure, improve cardio fitness, balance and coordination, among other benefits. This website has been designed to ensure that visitors feel a sense of peace, balance and growth when exploring the site. Visitors can find information on the benefits of yoga, yoga styles available, studio times, location and contact information. The primary goal of the site is to promote the studio and increase attendance at classes.
 This website has been created for my Milestone 1 User Centric Frontend Development Project. 
 ---
 

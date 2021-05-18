@@ -42,6 +42,10 @@ h3 {
     margin-left: 0;
 }
 
+.buttons {
+    margin: 10px;
+}
+
 /*-------------------------------- Header ---*/
 #title {
     font-size: 120%;
@@ -75,6 +79,8 @@ h3 {
     color: #515d5f;
 
 }
+
+
 
 .navbar-collapse {
     text-align: center;
@@ -147,6 +153,12 @@ h3 {
 
 @media screen and (max-width: 425px) {
     #welcome {
+        height: 500px;
+    }
+}
+
+@media screen and (max-width: 320px) {
+    #welcome {
         height: 600px;
     }
 }
@@ -164,30 +176,7 @@ h3 {
     padding: 40px;
 }
 
-/*
-#intro-image {
 
-    width: 50%;
-    float: right;
-    width: 400px;
-    height: 400px;
-    margin: 50px 150px;
-
-}
-
-@media only screen and (min-width:1024px) {
-    #intro-image {
-        margin: 25px;
-    }
-}
-
-
-#circle-image-bg {
-    background: url(../images/circle-image.jpg) no-repeat center center;
-    height: 100%;
-    border-radius: 50%;
-}
-*/
 
 #our-ethos {
 
