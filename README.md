@@ -2,9 +2,15 @@
 
 
 # Sunrise Yoga
+---
 
-Sunrise Yoga is a mobile-first website that aims to positively promote yoga, its benefits and encourage visitors to uptake classes at the studio. Yoga has been practiced for over 5,000 years and continues to bring strength, balance and inner peace to people and communities today. Regular yoga practice can not only help manage stress and anxiety, it can help regulate hormones, reduce blood pressure, improve cardio fitness, balance and coordination, among other benefits. This website has been designed to ensure that visitors feel a sense of peace, balance and growth when exploring the site. Visitors can find information on the benefits of yoga, yoga styles available, studio times, location and contact information. The primary goal of the site is to promote the studio and increase attendance at classes.
+Sunrise Yoga is a mobile-first website that aims to positively promote yoga, its benefits and encourage visitors to uptake classes at the studio. Yoga has been practiced for over 5,000 years and continues to bring strength, balance and inner peace to people and communities today. Regular yoga practice can not only help manage stress and anxiety, it can help regulate hormones, reduce blood pressure, improve cardio fitness, balance and coordination, among other benefits. 
+
+This website has been designed to ensure that visitors feel a sense of peace, balance and growth when exploring the site. Visitors can find information on the benefits of yoga, yoga styles available, studio times, location and contact information. The primary goal of the site is to promote the studio and increase attendance at classes.
+
+
 This website has been created for my Milestone 1 User Centric Frontend Development Project. 
+
 ---
 
 ## Table of Contents
@@ -27,8 +33,6 @@ This website has been created for my Milestone 1 User Centric Frontend Developme
 
 ## Strategy Plane
 
-&nbsp;
-
 
 ### Client Goals
 * As a client, I want a website developed, so I can increase brand awareness of the studio.
@@ -50,6 +54,7 @@ This website has been created for my Milestone 1 User Centric Frontend Developme
     * As a visitor, I want to be able to sign up for a newsletter, so I can stay informed about the studio.
     * As a visitor, I want to be able to find social media links, so I can continue to follow the studio.
     * As a visitor, I want to see images of the studio and classes, so I am encouraged to attend.
+    * As a visitor, I want to know the location of the studio, so I can easily find it when I attend.
 
 &nbsp;
 
@@ -98,19 +103,19 @@ During the strategy stage features were mapped according to their importance and
 &nbsp;
 
  
-### Existing Features
+### **Existing Features**
 
 #### Mobile-first Responsive Design
 
-This website has been developed with mobile-first design at the centre of the process. To ensure that users can easily, efficiently and enjoyable use the website across different devices, the design and features have been adapted accordingly. 
+This website has been developed with mobile-first design at the centre of the process. To ensure that users can easily, efficiently and enjoyable use the website across different devices, the design and features have been adapted accordingly, using Bootstrap framework and CSS styling.
 
 #### Navigation Bar
 
-The navigation menu is featured across all pages and remains at the top of the page, so the user doesn't have to scroll to the top return to the menu options. Users can see the different page options, with the page they are currently viewing emphasised. By having the navigation bar at the top of every page ensures that the user can find what they are looking for quickly, creating a good user experience.
+The navigation menu is featured across all pages and remains at the top of the page throughout. This ensures the user doesn't have to scroll to the top return to the menu options. Users can see the different page options at all times, with the page they are currently viewing emphasised. By having the navigation bar at the top of every page ensures that the user can find what they are looking for quickly, creating a good user experience. On smaller screens the navigation bar is collapsed, but remains in the top right hand corner. 
 
 #### Landing Page
 
-The landing page introduces the user to Sunrise Yoga. It features a hero image of a woman practicing yoga. This is a striking image, that quickly indicates to the user that the website is related to yoga. Additionally, there is a welcome message that introduces the user to site. The welcome message also includes a button that links to the Get Started page, where new users can find out more about starting yoga.
+The landing page introduces the user to Sunrise Yoga. It features a hero image of a woman practicing yoga. This is a striking image, that quickly indicates to the user that the website is related to yoga. Additionally, there is a welcome message that introduces the user to site. The welcome message also includes a button that links to the Get Started page, where new users can find out more about starting yoga. 
 
 
 #### Our Ethos Section
@@ -124,7 +129,7 @@ On the landing page there is a sign-up form where users can input there details 
 
 #### Gallery
 
-At the bottom of the landing page there is a gallery. These images are a mixture of people practicing yoga and of the studio. The images convey to users what it would be like if they attended and what yoga can look like. By showing users what the classes will look like it encourages users to attend as it de-mystifies any worries about starting yoga or a new class. 
+At the bottom of the landing page there is a gallery. These images are a mixture of people practicing yoga and of the studio. The images convey to users what it would be like if they attended and what yoga can look like. By showing users what the classes will look like, it encourages users to attend as it de-mystifies some of the worries about starting yoga or a new class. 
 
 #### Footer
 
@@ -146,6 +151,26 @@ On the final page the location information of the studio and map are dislayed. T
 #### Contact Form
 
 The contact form allows users to contact the studio regarding any questions, queries or issues. The form allows users to personalise the message, rather than predetermined options. The studio contact information is also provided incase a user would prefer to directly call or email the studio.
+
+### **Features Left to Implement**
+
+#### Events Page
+
+An events page will showcase what events and retreats are available. This allows users to explore other options to engage with the studio outwith the yoga classes. The events page would describe what is available, dates, price and an option to book.
+
+#### Testimonial Page
+
+A testimonial page will be dedicated to highlighting positive feedback of members and studio users. This page is important for encouraging new and existing users to attend and engage with the studio. Positive stories and anecdotes help users understand the impact the studio and yoga has had on people.
+
+#### Online Booking System
+
+An online booking system will allow the studio the manage attendees and bookings in advance of classes. It will also enable users to pre-book classes, so they can ensure they have a space.
+
+#### Online Membership Platform
+
+An online membership platform will allow the studio to expand what it can offer to users throught membership bundles, discounts and early-bird offers. For users, an online membership platform enables them to manage bookings, view their class history and access discounts and offers.
+
+
 
 ## Structure Plane
 
@@ -223,14 +248,39 @@ In the initial planning stages of the project, I conducted research into colours
 
 After further research and exploration, the final colours chosen are as below. 
 
-* #3e837b- Celadon Green
-* #515d5f- Deep Space Sparkle
-* rgba(255, 201, 173, 0.5)- Apricot
-* #ee9061- Atomic Tangerine
+![](assets/readme-images/celadon-green.png)
+![](assets/readme-images/deep-space-sparkle.png)
+![](assets/readme-images/atomic-tangerine.png)
+![](assets/readme-images/apricot.png)
+
+*Note: The colour apricot was used in rgba form as rgba(255, 201, 173, 0.5). For the purposes of display it was converted to hex*
+
 
 ### Images
 
-The images throughout the website have been curated to...
+The images throughout the website have been curated to show the user what the studio and classes look like and to give a sense of peace and balance. 
+
+## Technologies
+
+### Languages
+
+- HTML
+- CSS3
+
+### Frameworks and Libraries
+
+- [Balsamiq](https://balsamiq.com/) was used to create the wireframes for this project during the design process.
+- [Bootstrap 4.6.0](https://getbootstrap.com/docs/4.6/getting-started/introduction/) was contributed to the responsiveness and styling of the project.
+- [Coolors](https://coolors.co/) was used in the initial design process to choose a colour palette.
+- [Font Awesome](https://fontawesome.com/) was used for social media icons.
+- Git was used for version control and to push code to GitHub.
+- [GitHub](https://github.com/) was used to store the repository.
+- [GitPod](https://gitpod.io) was used as the IDE to develop the project.
+-  Google Maps was used to display the location of the studio.
+- [Pexels](https://www.pexels.com/) was used to select appropriate images.
+- [Unsplash](https://unsplash.com/) was used to select appropriate images.
+
+
 
 
 ## Deployment
@@ -272,6 +322,71 @@ A clone of the repository can be made, which will create a local copy on your ow
 
 ## Testing
 
+### Code Validation
+
+- [The W3C CSS Validation Service](https://jigsaw.w3.org/css-validator/validator) tool was used to validate the CSS stylesheet. View the results [here](assets/readme-images/w3c-css-validation.png).
+
+- [The W3C Markup Validation Service](https://validator.w3.org/) tool was used to validate all html files. View the results... 
+
+
+### User Stories
+
+1. *As a first-time visitor, I want to understand what the site is about and who it is for.*
+&nbsp;
+- The name Sunrise Yoga immediately indicates the site is related to yoga.
+- The landing page has a hero image of a woman practicing yoga.
+- On the landing page there is a welcome message, which explains who Sunrise Yoga is, what they offer and who their site is aimed at.
+- At the end of the welcome page, there is link to the Get Started page, where users can find more information on starting yoga.
+- On the landing page there is information about Sunrise Yoga's story, ethos and commitment to users. This gives more context to who Sunrise Yoga is.
+
+2. *As a first-time visitor, I want to be able to find information about yoga and the styles available, so I can decide if I want to attend.*
+&nbsp;
+- The Get Started page explains briefly what yoga is and what beginner options are available.
+- The Classes page has information on the different styles available, what they are and their benefits. 
+- Both pages can be accessed from the navigation bar, which remains at the top of the site, so users can find information quickly and easily.
+   
+3. *As visitor, I want to be able to navigate the site easily, so I can find the information I seek.*
+&nbsp;
+- The navigation bar is sticky, and remains at the top of the site, so users do not have to scroll to the top to change page.
+- On smaller screens the navigation bar collapses, with the menu dropdown button remaining in the top right hand of the screen.
+- All pages are headed accordingly, so users know what page they are on.
+- The page a user is presently on is highlighted in the menu, so users know which page they are on.
+
+4. *As a visitor, I want to be able to check up-to-date class information, so I can find the right class for me.*
+&nbsp;
+- There is a dedicated classes page, which is clearly labelled in the navigation bar, so users can find the information easily.
+- The class days and times are displayed in a table, so it can be easily read.
+- On smaller screens the timetable is displayed in an accordion style, to ensure a good user experience.
+- The yoga levels are indicated, with a short description of what they are beneath.
+- The different types of yoga on offer is descbribed, so users understand the differences before they choose the right class.
+
+5. *As a visitor, I want to be able to contact the studio, so I can have my queries resolved.*
+ &nbsp;
+ - The contact page is clearly labelled in the navigation bar.
+ - The contact form is clearly displayed and allows users to input their own message, rather than choose from pre-determined options.
+ - The studio contact details are also displayed incase the user would prefer to contact the studio directly. 
+
+6. *As a visitor, I want to be able to sign up for a newsletter, so I can stay informed about the studio.*
+&nbsp;
+- There is a sign-up form on the landing page, which is clearly titled. 
+- On the Get Started page, under the community section it encourages users to sign up to the newsletter. There is a button that links to the sign-up form below.
+
+7. *As a visitor, I want to be able to find social media links, so I can continue to follow the studio.*
+&nbsp;
+- The social media links are displayed at the bottom of every page.
+- Font Awesome icons have been used instead of text, as they are recognisable for users.
+
+8. *As a visitor, I want to see images of the studio and classes, so I am encouraged to attend.*
+&nbsp;
+- Throughout the site images have been displayed.
+- On the landing page there is a hero image and gallery.
+- On the Get Started Page there are supporting images.
+- There is a balance of images that convey a sense of the studio to the user, without overcrowding the site.
+
+9.   *As a visitor, I want to know the location of the studio, so I can easily find it when I attend.*
+&nbsp;
+- On the contact page there is a brief description of the studio, a Google Map of the location and the studio address. 
+- The location information is found on the contact page.
 
 ---
 

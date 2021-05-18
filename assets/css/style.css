@@ -18,6 +18,11 @@ body {
     padding: 0;
 }
 
+.row {
+    margin-right: 0;
+    margin-left: 0;
+}
+
 
 h2 {
 
@@ -26,24 +31,16 @@ h2 {
     text-align: center;
 }
 
-.content {
-    line-height: 35px;
-    text-align: center;
-}
-
 h3 {
     text-align: center;
     font-size: 150%;
 }
 
-.row {
-    margin-right: 0;
-    margin-left: 0;
+.content {
+    line-height: 35px;
+    text-align: center;
 }
 
-.buttons a {
-    margin: 10px;
-}
 
 /*-------------------------------- Header ---*/
 #title {
@@ -78,8 +75,6 @@ h3 {
     color: #515d5f;
 
 }
-
-
 
 .navbar-collapse {
     text-align: center;
@@ -173,7 +168,6 @@ h3 {
 }
 
 
-
 #our-ethos {
 
     text-align: center;
@@ -193,7 +187,6 @@ h3 {
 #sign-up h3,
 #contact-form h3 {
     font-size: 150%;
-
     padding: 20px 0 10px 0;
 }
 
@@ -233,8 +226,8 @@ input[type=email]:focus {
 }
 
 #gallery img {
-    object-fit: cover cover;
-    object-position: center center;
+    object-fit: cover;
+    object-position: center;
     width: 400px;
     height: 400px;
     padding: 5px;
@@ -252,7 +245,6 @@ footer {
     background-color: rgba(62, 131, 123, 0.3);
 
 }
-
 
 .social-links {
     text-align: center;
@@ -320,7 +312,6 @@ ul {
     clear: both;
 }
 
-/* Content */
 .image-content {
     padding: 10px;
 
@@ -352,10 +343,6 @@ ul {
     }
 }
 
-
-
-
-
 /*-------------------------------- End of code amended from W3 School---*/
 
 #beginner-options {
@@ -366,7 +353,7 @@ ul {
     margin: 30px 0;
 }
 
-/*-------------------------------- Classes--*/
+/*-------------------------------- Classes Page--*/
 
 #timetable {
     width: 100%;
@@ -464,7 +451,7 @@ ul {
 }
 
 
-/*-------------------------------- Contact--*/
+/*-------------------------------- Contact Page--*/
 
 #location {
     margin: 50px 0;
@@ -477,7 +464,6 @@ ul {
 #location p {
     margin: 40px 0;
 }
-
 
 
 @media screen and (max-width: 425px) {
