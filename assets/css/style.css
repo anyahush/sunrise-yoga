@@ -12,7 +12,6 @@
 body {
     font-family: "PT Serif", sans-serif;
     color: #515d5f;
-    overflow-x: hidden;
 }
 
 .container-fluid {
@@ -42,7 +41,7 @@ h3 {
     margin-left: 0;
 }
 
-.buttons {
+.buttons a {
     margin: 10px;
 }
 
@@ -104,9 +103,6 @@ h3 {
     width: 100%;
     background: url(../images/hero-image.jpg) no-repeat bottom;
     overflow: hidden;
-    background-size: cover;
-
-
 }
 
 @media only screen and (min-width:768px) {
@@ -209,7 +205,7 @@ h3 {
 .form-input {
     width: 100%;
     padding: 5px;
-    border-radius: 3px;
+    border-radius: 3px 3px;
 }
 
 @media only screen and (min-width: 768px) {
@@ -237,8 +233,8 @@ input[type=email]:focus {
 }
 
 #gallery img {
-    object-fit: cover;
-    object-position: center;
+    object-fit: cover cover;
+    object-position: center center;
     width: 400px;
     height: 400px;
     padding: 5px;

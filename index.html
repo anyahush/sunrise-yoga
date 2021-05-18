@@ -21,6 +21,7 @@
     <header>
 
 
+        <!-- Bootstrap amended navbar-->
         <nav class="navbar navbar-expand-md navbar-light">
             <div class="container-fluid">
                 <a class="navbar-brand" href="index.html">
@@ -34,10 +35,10 @@
                     <span class="navbar-toggler-icon"></span>
                 </button>
 
-                <div class="collapse navbar-collapse" id="navbardropdown">
+                <div class="collapse navbar-collapse">
                     <ul class="navbar-nav ml-auto">
                         <li class="nav-item">
-                            <a class="nav-link" href="index.html" id="navbardropdown">Home <span
+                            <a class="nav-link active" href="index.html" id="navbardropdown">Home <span
                                     class="sr-only">(current)</span></a>
                         </li>
                         <li class="nav-item">
@@ -54,24 +55,20 @@
                 </div>
             </div>
         </nav>
-
+        <!-- /Bootstrap amended navbar-->
 
     </header>
 
 
     <!-- Hero Image Container-->
-    <section>
-
-        <div class="container-fluid">
+    <div class="container-fluid">
 
 
-            <div id="hero-image">
-            </div>
-
+        <div id="hero-image">
         </div>
 
+    </div>
 
-    </section>
     <!-- /Hero Image Container-->
 
     <!-- Main Container-->
@@ -105,14 +102,16 @@
                         </div>
 
                         <div>
-                            <br>
-                            <p class="paragraph-content">To read more on starting your yoga journey
+
+                            <p class="paragraph-content">
                                 <br>
-                                <div class="buttons">
-                                    <a class="btn-sm btn-dark" href="get-started.html" role="button" id="intro-btn">
-                                        Click
-                                        here</a>
-                                </div>
+                                To read more on starting your yoga journey
+                                <br>
+
+                                <a class="btn-sm btn-dark" href="get-started.html" role="button">
+                                    Click
+                                    here</a>
+
                             </p>
 
                         </div>
@@ -137,7 +136,8 @@
 
                 <div class="row">
                     <div class="col-12">
-                        <p class="paragraph-content"> Sunrise Yoga was founded in 2012 with the aim of...
+                        <p class="paragraph-content"> Sunrise Yoga was founded in 2012 with the aim of bringing yoga to
+                            Inverness.
                             <br>
                             Since the doors opened, the studio has blossomed and
                             become an integral part of the local community.
@@ -147,10 +147,11 @@
                             be
                             social.
                             <br>
-                            The studio also strives to be as sustainable as possible,
+                            The studio also strives to be as sustainable as possible, from our recycled and up-cycled
+                            decor to solar panels.
                             <br>
-                            we are always looking for new ways to
-                            improve. </p>
+                            We are always looking for new ways to
+                            improve. All suggestions welcome! </p>
                     </div>
                 </div>
             </div>
@@ -235,12 +236,12 @@
                 <form>
 
                     <div>
-                        <input type="text" id="name-sign-up" class="form-input" required placeholder="Name" required>
+                        <input type="text" id="name-sign-up" class="form-input" placeholder="Name" required>
 
                         <br>
                     </div>
                     <div>
-                        <input type="email" id="email-sign-up" class="form-input" required placeholder="Email" required>
+                        <input type="email" id="email-sign-up" class="form-input" placeholder="Email" required>
 
                         <br>
                     </div>
@@ -262,7 +263,7 @@
 
     <!-- Gallery-->
     <div class="container">
-        <section id="gallery">
+        <div id="gallery">
             <div class="row ">
                 <div class="d-none d-lg-block col-lg-4">
 
@@ -274,7 +275,7 @@
 
                 </div>
 
-                <div class="col-12 justisfy-content-center col-md-6 col-lg-4" class="img-fluid">
+                <div class="col-12 justisfy-content-center col-md-6 col-lg-4">
 
 
                     <img src="assets/images/prayer.jpg" alt="A black and white photograph of a woman praying"
@@ -290,19 +291,14 @@
                         id="downward-dog-image">
                 </div>
             </div>
-    </div>
-    </section>
+
+        </div>
     </div>
     <!-- /Gallery -->
 
-
+    <!-- Footer-->
     <footer>
         <div class="row justify-content-center">
-            <div class="col-12">
-
-                <div id=" background-panel">
-                </div>
-            </div>
 
             <div class="col-12">
                 <ul class="social-links">
@@ -326,6 +322,8 @@
 
         </div>
     </footer>
+    <!-- /Footer-->
+
     <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"
         integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous">
     </script>

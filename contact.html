@@ -18,7 +18,7 @@
 
     <header>
 
-
+        <!-- Bootstrap amended navbar-->
         <nav class="navbar navbar-expand-md navbar-light">
             <a class="navbar-brand" href="index.html">
                 <div id="logo">
@@ -31,7 +31,7 @@
                 <span class="navbar-toggler-icon"></span>
             </button>
 
-            <div class="collapse navbar-collapse" id="navbardropdown">
+            <div class="collapse navbar-collapse">
                 <ul class="navbar-nav ml-auto">
                     <li class="nav-item">
                         <a class="nav-link" href="index.html" id="navbardropdown">Home <span
@@ -41,17 +41,17 @@
                         <a class="nav-link" href="get-started.html">Get Started</a>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link" href="classes.html">Classes</a>
+                        <a class="nav-link " href="classes.html">Classes</a>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link" href="contact.html">Contact</a>
+                        <a class="nav-link active" href="contact.html">Contact</a>
                     </li>
                 </ul>
 
             </div>
         </nav>
 
-
+        <!-- /Bootstrap amended navbar-->
     </header>
 
     <!-- Title Container-->
@@ -75,7 +75,7 @@
     <!-- /Title Container-->
 
 
-
+    <!-- Main Container-->
     <div class="container">
 
         <section id="location">
@@ -114,7 +114,9 @@
 
         </section>
     </div>
+    <!-- /Main Container-->
 
+    <!-- Contact Form-->
     <section>
         <div class="container-fluid">
 
@@ -130,17 +132,17 @@
 
                     <div>
 
-                        <input type="text" id="name-sign-up" class="form-input" required placeholder="Name" required>
+                        <input type="text" id="name-sign-up" class="form-input" placeholder="Name" required>
 
                         <br>
                     </div>
                     <div>
-                        <input type="email" id="email-sign-up" class="form-input" required placeholder="Email" required>
+                        <input type="email" id="email-sign-up" class="form-input" placeholder="Email" required>
 
                         <br>
                     </div>
                     <div>
-                        <input type="subject" id="message-subject-sign-up" class="form-input" required
+                        <input type="text" id="message-subject-sign-up" class="form-input" required
                             placeholder="Subject">
 
                         <br>
@@ -164,15 +166,11 @@
 
     </section>
 
+    <!-- /Contact Form-->
 
-
+    <!-- Footer-->
     <footer>
         <div class="row justify-content-center">
-            <div class="col-12">
-
-                <div id=" background-panel">
-                </div>
-            </div>
 
             <div class="col-12">
                 <ul class="social-links">
@@ -196,6 +194,8 @@
 
         </div>
     </footer>
+    <!--- /Footer-->
+
     <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"
         integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous">
     </script>
