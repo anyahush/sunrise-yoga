@@ -81,6 +81,8 @@ During the initial strategy planning, the opportunities of the site were determi
 
 <img src="assets/readme-images/meta-chart.png" alt="Importance-Viability Graph" width="800" height="600"/>
 
+*Note: Number 1: Create an online presence is plotted at 5,5, behind number 3.*
+
 &nbsp;
 
 ## Scope Plane
@@ -105,70 +107,71 @@ During the strategy stage features were mapped according to their importance and
  
 ### **Existing Features**
 
-#### Mobile-first Responsive Design
+- Mobile-first Responsive Design
 
-This website has been developed with mobile-first design at the centre of the process. To ensure that users can easily, efficiently and enjoyable use the website across different devices, the design and features have been adapted accordingly, using Bootstrap framework and CSS styling.
+    * This website has been developed with mobile-first design at the centre of the process. To ensure that users can easily, efficiently and enjoyable use the website across different devices, the design and features have been adapted accordingly, using Bootstrap framework and CSS styling.
 
-#### Navigation Bar
+- Navigation Bar
 
-The navigation menu is featured across all pages and remains at the top of the page throughout. This ensures the user doesn't have to scroll to the top return to the menu options. Users can see the different page options at all times, with the page they are currently viewing emphasised. By having the navigation bar at the top of every page ensures that the user can find what they are looking for quickly, creating a good user experience. On smaller screens the navigation bar is collapsed, but remains in the top right hand corner. 
+    * The navigation menu is featured across all pages and remains at the top of the page throughout. This ensures the user doesn't have to scroll to the top return to the menu options. Users can see the different page options at all times, with the page they are currently viewing emphasised. 
+    * By having the navigation bar at the top of every page ensures that the user can find what they are looking for quickly, creating a good user experience. On smaller screens the navigation bar is collapsed, but remains in the top right hand corner. 
 
-#### Landing Page
+- Landing Page
 
-The landing page introduces the user to Sunrise Yoga. It features a hero image of a woman practicing yoga. This is a striking image, that quickly indicates to the user that the website is related to yoga. Additionally, there is a welcome message that introduces the user to site. The welcome message also includes a button that links to the Get Started page, where new users can find out more about starting yoga. 
-
-
-#### Our Ethos Section
-
-The Our Ethos section describes to the user about the ethos, values and history of the studio. This builds a strong brand for the studio and trust with the users. By giving the users context of the studio, it encourages users to further explore the website and book classes at the studio.
+    * The landing page introduces the user to Sunrise Yoga. It features a hero image of a woman practicing yoga. This is a striking image, that quickly indicates to the user that the website is related to yoga. Additionally, there is a welcome message that introduces the user to site. The welcome message also includes a button that links to the Get Started page, where new users can find out more about starting yoga. 
 
 
-#### Newsletter Sign-Up
+- Our Ethos Section
 
-On the landing page there is a sign-up form where users can input there details and  in return will receive a monthly newsletter containing further information and news about the studio. 
-
-#### Gallery
-
-At the bottom of the landing page there is a gallery. These images are a mixture of people practicing yoga and of the studio. The images convey to users what it would be like if they attended and what yoga can look like. By showing users what the classes will look like, it encourages users to attend as it de-mystifies some of the worries about starting yoga or a new class. 
-
-#### Footer
-
-The footer of the website remains the same throughout the site. This continuity ensures that the user can find what they are looking for quickly, creating a good user experience. The footer contains [Font Awesome](https://fontawesome.com/) icons for social media links to the studio's social media accounts. These sites open on a seperate page when clicked. By having social media links easily accessible throughout the site means that users can continue to follow the studio.
-
-#### Get Started Page
-
-The second page is called Get Started and it specifically targets people who haven't done yoga before or haven't done it in a long time. This page includes information on starting yoga and what beginner options are available, along with supporting images. Having this dedicated page on starting yoga, allows new users to navigate the site easily.
-
-#### Class Timetable
-
-A table is used to display the class timetable. This has been amended to accordion style for smaller screens, so that users are not required to use a horizontal scroll. The class days, times and levels are shown, so users can decide what class they would like to attend. Information on the different styles available, cost and what to bring is also included to ensure that the user if fully informed.
-
-#### Location Information 
-
-On the final page the location information of the studio and map are dislayed. The map helps users to visually understand where the studio is. The map can also be clicked on and enlarged. The supporting information tells users about parking and transport options. This practical information is important in ensuring the user is fully informed.
+    * The Our Ethos section describes to the user about the ethos, values and history of the studio. This builds a strong brand for the studio and trust with the users. By giving the users context of the studio, it encourages users to further explore the website and book classes at the studio.
 
 
-#### Contact Form
+- Newsletter Sign-Up
 
-The contact form allows users to contact the studio regarding any questions, queries or issues. The form allows users to personalise the message, rather than predetermined options. The studio contact information is also provided incase a user would prefer to directly call or email the studio.
+    * On the landing page there is a sign-up form where users can input there details and  in return will receive a monthly newsletter containing further information and news about the studio. 
+
+- Gallery
+
+    * At the bottom of the landing page there is a gallery. These images are a mixture of people practicing yoga and of the studio. The images convey to users what it would be like if they attended and what yoga can look like. By showing users what the classes will look like, it encourages users to attend as it de-mystifies some of the worries about starting yoga or a new class. 
+
+- Footer
+
+    * The footer of the website remains the same throughout the site. This continuity ensures that the user can find what they are looking for quickly, creating a good user experience. The footer contains [Font Awesome](https://fontawesome.com/) icons for social media links to the studio's social media accounts. These sites open on a seperate page when clicked. By having social media links easily accessible throughout the site means that users can continue to follow the studio.
+
+- Get Started Page
+
+    * The second page is called Get Started and it specifically targets people who haven't done yoga before or haven't done it in a long time. This page includes information on starting yoga and what beginner options are available, along with supporting images. Having this dedicated page on starting yoga, allows new users to navigate the site easily.
+
+- Class Timetable
+
+    * A table is used to display the class timetable. This has been amended to accordion style for smaller screens, so that users are not required to use a horizontal scroll. The class days, times and levels are shown, so users can decide what class they would like to attend. Information on the different styles available, cost and what to bring is also included to ensure that the user if fully informed.
+
+- Location Information 
+
+    * On the final page the location information of the studio and map are dislayed. The map helps users to visually understand where the studio is. The map can also be clicked on and enlarged. The supporting information tells users about parking and transport options. This practical information is important in ensuring the user is fully informed.
+
+
+- Contact Form
+
+    * The contact form allows users to contact the studio regarding any questions, queries or issues. The form allows users to personalise the message, rather than predetermined options. The studio contact information is also provided incase a user would prefer to directly call or email the studio.
 
 ### **Features Left to Implement**
 
-#### Events Page
+- Events Page
 
-An events page will showcase what events and retreats are available. This allows users to explore other options to engage with the studio outwith the yoga classes. The events page would describe what is available, dates, price and an option to book.
+    * An events page will showcase what events and retreats are available. This allows users to explore other options to engage with the studio outwith the yoga classes. The events page would describe what is available, dates, price and an option to book.
 
-#### Testimonial Page
+- Testimonial Page
 
-A testimonial page will be dedicated to highlighting positive feedback of members and studio users. This page is important for encouraging new and existing users to attend and engage with the studio. Positive stories and anecdotes help users understand the impact the studio and yoga has had on people.
+    * A testimonial page will be dedicated to highlighting positive feedback of members and studio users. This page is important for encouraging new and existing users to attend and engage with the studio. Positive stories and anecdotes help users understand the impact the studio and yoga has had on people.
 
-#### Online Booking System
+- Online Booking System
 
-An online booking system will allow the studio the manage attendees and bookings in advance of classes. It will also enable users to pre-book classes, so they can ensure they have a space.
+    * An online booking system will allow the studio the manage attendees and bookings in advance of classes. It will also enable users to pre-book classes, so they can ensure they have a space.
 
-#### Online Membership Platform
+- Online Membership Platform
 
-An online membership platform will allow the studio to expand what it can offer to users throught membership bundles, discounts and early-bird offers. For users, an online membership platform enables them to manage bookings, view their class history and access discounts and offers.
+    * An online membership platform will allow the studio to expand what it can offer to users throught membership bundles, discounts and early-bird offers. For users, an online membership platform enables them to manage bookings, view their class history and access discounts and offers.
 
 
 
@@ -180,23 +183,14 @@ Throughout the user's time on the site, the naviagtion bar remains at the top. T
 ## Skeleton Plane
 
 
-### Mobile Wireframes
-- [Mobile Home Page](assets/readme-images/wireframes/ms1-mobile-home-page.png)
-- [Mobile Get Started Page](assets/readme-images/wireframes/ms1-mobile-page1.png)
-- [Mobile Classes Page](assets/readme-images/wireframes/ms1-mobile-page2.png)
-- [Mobile Contact Page](assets/readme-images/wireframes/ms1-mobile-page3.png)
+| Mobile Wireframes | Tablet Wireframes | Desktop Wireframes |
+--------------------|--------------------|--------------------------|
+| [Mobile Home Page](assets/readme-images/wireframes/ms1-mobile-home-page.png) | [Tablet Home Page](assets/readme-images/wireframes/ms1-tablet-home-page.png) | [Desktop Home Page](assets/readme-images/wireframes/ms1-desktop-home-page.png) |
+| [Mobile Get Started Page](assets/readme-images/wireframes/ms1-mobile-page1.png) | [Tablet Get Started Page](assets/readme-images/wireframes/ms1-tablet-page1.png) | [Desktop Get Started Page](assets/readme-images/wireframes/ms1-desktop-page1.png) |
+| [Mobile Classes Page](assets/readme-images/wireframes/ms1-mobile-page2.png) | [Tablet Classes Page](assets/readme-images/wireframes/ms1-tablet-page2.png) | [Desktop Classes Page](assets/readme-images/wireframes/ms1-desktop-page2.png) |
+| [Mobile Contact Page](assets/readme-images/wireframes/ms1-mobile-page3.png) | [Tablet Contact Page](assets/readme-images/wireframes/ms1-tablet-page3.png) | [Desktop Contact Page](assets/readme-images/wireframes/ms1-desktop-page3.png) |
 
-### Tablet Wireframes
-- [Tablet Home Page](assets/readme-images/wireframes/ms1-tablet-home-page.png)
-- [Tablet Get StartedPage](assets/readme-images/wireframes/ms1-tablet-page1.png)
-- [Tablet Classes Page](assets/readme-images/wireframes/ms1-tablet-page2.png)
-- [Tablet Contact Page](assets/readme-images/wireframes/ms1-tablet-page3.png)
 
-### Desktop Wireframes
-- [Desktop Home Page](assets/readme-images/wireframes/ms1-desktop-home-page.png)
-- [Desktop Get Started Page](assets/readme-images/wireframes/ms1-desktop-page1.png)
-- [Desktop Classes Page](assets/readme-images/wireframes/ms1-desktop-page2.png)
-- [Desktop Contact Page](assets/readme-images/wireframes/ms1-desktop-page3.png)
 
 ### Changes to Wireframes
 
@@ -244,16 +238,16 @@ In the initial planning stages of the project, I conducted research into colours
 [Coolors](https://coolors.co/) was used at first to establish a combination of colours that compliment each other. 
 
 
-<img src="assets/readme-images/ms1-colours.png" alt="Colour Chart" width="800" height="600"/>
+<img src="assets/readme-images/colours/ms1-colours.png" alt="Colour Chart" width="800" height="600"/>
 
 &nbsp;
 
 After further research and exploration, the final colours chosen are as below. 
 
-![](assets/readme-images/celadon-green.png)
-![](assets/readme-images/deep-space-sparkle.png)
-![](assets/readme-images/atomic-tangerine.png)
-![](assets/readme-images/apricot.png)
+![](assets/readme-images/colours/celadon-green.png)
+![](assets/readme-images/colours/deep-space-sparkle.png)
+![](assets/readme-images/colours/atomic-tangerine.png)
+![](assets/readme-images/colours/apricot.png)
 
 *Note: The colour apricot was used in rgba form as rgba(255, 201, 173, 0.5). For the purposes of display it was converted to hex*
 
@@ -279,6 +273,7 @@ The images throughout the website have been curated to show the user what the st
 - [GitHub](https://github.com/) was used to store the repository.
 - [GitPod](https://gitpod.io) was used as the IDE to develop the project.
 -  Google Maps was used to display the location of the studio.
+- [Lamdatest](https://www.lambdatest.com/) was used to check browser compatibility.
 - [Pexels](https://www.pexels.com/) was used to select appropriate images.
 - [Unsplash](https://unsplash.com/) was used to select appropriate images.
 

@@ -6,11 +6,13 @@
 
 ![](assets/readme-images/w3c-html-validation.png)
 
+&nbsp;
 
 - [The W3C CSS Validation Service](https://jigsaw.w3.org/css-validator/validator) tool was used to validate the CSS stylesheet. 
 
 ![](assets/readme-images/w3c-css-validation.png)
 
+&nbsp;
 
 ### User Stories
 
@@ -31,6 +33,10 @@
 - The Classes page has information on the different styles available, what they are and their benefits. 
 - Both pages can be accessed from the navigation bar, which remains at the top of the site, so users can find information quickly and easily.
    
+   ![](assets/readme-images/user-story-images/yoga-styles.png)
+
+   ![](assets/readme-images/user-story-images/beginner-info.png)
+
 3. *As visitor, I want to be able to navigate the site easily, so I can find the information I seek.*
 &nbsp;
 - The navigation bar is sticky, and remains at the top of the site, so users do not have to scroll to the top to change page.
@@ -67,6 +73,8 @@
 - There is a sign-up form on the landing page, which is clearly titled. 
 - On the Get Started page, under the community section it encourages users to sign up to the newsletter. There is a button that links to the sign-up form below.
 
+![](assets/readme-images/user-story-images/sign-up.png)
+
 
 7. *As a visitor, I want to be able to find social media links, so I can continue to follow the studio.*
 &nbsp;
@@ -90,21 +98,28 @@
 - On the contact page there is a brief description of the studio, a Google Map of the location and the studio address. 
 - The location information is found on the contact page.
 
+![](assets/readme-images/user-story-images/map.png)
+
 ### Responsiveness
 
-Responsiveness of this site has been tested using Google Chrome Developer Tools and Safari Develop options. 
+Responsiveness of this site has been tested using [Google Chrome Developer Tools](https://developer.chrome.com/docs/devtools/) and Safari Develop options. 
 
-| Apple| Android|
-|iPhone SE |
-- iPhone SE
-- iPhone SE
-- iPhone SE
+![Device Responsiveness Grid](assets/readme-images/responsiveness-grid.png)
 
 ### Browser Compatibility 
 
 The website was developed on Google Chrome 90.0.4430.212, and counter-checked with Safari 14.0.3.
 
 Using [Lambdatest](https://www.lambdatest.com/) the site's browser compatibility was checked. 
+
+The Lamdatest checked a variety of versions in each browser. Below are two examples of the browser compatibility tests.
+
+![Windows 10 Chrome 89](assets/readme-images/windows10-chrome89.png)
+
+![Windows 10 Internet Explorer 11](assets/readme-images/windows10-ie11.png)
+
+
+![Browser Compatibility Grid](assets/readme-images/browser-compatibility-grid.png)
 
 ### Performance
 
@@ -127,16 +142,20 @@ Get Started Page
 ![](assets/readme-images/get-started-performance.png)
 
 Classes Page
-1. Perfomance- 
-2. Accessibility- 
-3. Best Practice-
-4. SEO- 
+1. Perfomance- 100
+2. Accessibility- 97
+3. Best Practice- 93
+4. SEO- 100
+
+![](assets/readme-images/classes-performance.png)
 
 Contact Page
-1. Perfomance- 
-2. Accessibility- 
-3. Best Practice- 
-4. SEO- 
+1. Perfomance- 100
+2. Accessibility- 97
+3. Best Practice- 93
+4. SEO- 100
+
+![](assets/readme-images/contact-performance.png)
 
 
 ### Bugs
