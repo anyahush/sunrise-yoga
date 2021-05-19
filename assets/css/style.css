@@ -72,8 +72,6 @@ h3 {
 .navbar-nav {
     font-size: 110%;
     font-family: 'PT Serif';
-    color: #515d5f;
-
 }
 
 .navbar-collapse {
@@ -410,7 +408,7 @@ ul {
 
 #good-vibes {
     height: 650px;
-    width: 500px;
+    width: 400px;
 }
 
 #good-vibes-image {

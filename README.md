@@ -174,7 +174,9 @@ An online membership platform will allow the studio to expand what it can offer 
 
 ## Structure Plane
 
+This site has been developed with a simple hierarchical structure. When the site is developed at later stages, a hierarchical structure will support additional pages and categories.
 
+Throughout the user's time on the site, the naviagtion bar remains at the top. The main goal of having structure is to ensure users are able to find all desired informatio readily and efficiently, resulting in the uptake of a yoga class.
 ## Skeleton Plane
 
 
@@ -281,7 +283,9 @@ The images throughout the website have been curated to show the user what the st
 - [Unsplash](https://unsplash.com/) was used to select appropriate images.
 
 
+## Testing
 
+The testing process can be viewed [here](testing.md).
 
 ## Deployment
 
