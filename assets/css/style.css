@@ -306,7 +306,7 @@ ul {
 @media screen and (min-width: 1440px) {
     #get-started-image {
         height: 500px;
-        margin: 200px;
+        margin: 200px 150px;
     }
 }
 
@@ -420,8 +420,8 @@ ul {
 }
 
 #good-vibes {
-    height: 650px;
-    width: 400px;
+    height: 700px;
+    width: 500px;
 }
 
 #good-vibes-image {
@@ -451,10 +451,8 @@ ul {
         width: 600px;
     }
 
-    #practical-info-1,
     #practical-info-2 {
-        padding: 50px;
-        margin-left: 150px;
+        margin-top: 75px;
     }
 }
 
