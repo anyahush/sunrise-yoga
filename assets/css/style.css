@@ -74,6 +74,19 @@ h3 {
     font-family: 'PT Serif';
 }
 
+.navbar-light .navbar-nav .nav-link {
+    color: #515d5f;
+}
+
+.navbar-light .navbar-nav .active>.nav-link,
+.navbar-light .navbar-nav .nav-link.active,
+.navbar-light .navbar-nav .nav-link.show,
+.navbar-light .navbar-nav .show>.nav-link {
+    color: #ee9061;
+}
+
+
+
 .navbar-collapse {
     text-align: center;
 }
