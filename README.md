@@ -390,5 +390,12 @@ get-started.html
 
 
 
+## Acknowledgements
+
+My mentor for guidance and support.
+
+[Code Institute](https://codeinstitute.net/) for their passion, support and information.
+
+The Slack community for their support and feedback throughout the process. 
 
 

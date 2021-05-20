@@ -173,4 +173,3 @@ On the home page there was an issue of spacing between the different <div> secti
 3. Navbar active highlight
 &nbsp;
 When on a different page other than the home page, the home page remained highlighted in the navbar. The active class has been added to each page to ensure when the user is on a page, that page is highlighted.
-
