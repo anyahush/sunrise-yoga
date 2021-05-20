@@ -386,16 +386,7 @@ get-started.html
 * [Private Lesson](https://www.pexels.com/photo/woman-doing-a-hand-stand-3822354/)
 * [Hands Photo](https://unsplash.com/photos/DNkoNXQti3c)
 
-classes.html
-* [Good Vibes Sign](https://unsplash.com/photos/muS2RraYRuQ)
 
-## Acknowledgements
-
-My mentor for guidance and support.
-
-[Code Institute](https://codeinstitute.net/) for their passion, support and information.
-
-The Slack Community for their support, feedback and comments throughout the process.
 
 
 
