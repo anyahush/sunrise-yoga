@@ -8,7 +8,7 @@ Sunrise Yoga is a mobile-first website that aims to positively promote yoga, its
 This website has been designed to ensure that visitors feel a sense of peace, balance and growth when exploring the site. Visitors can find information on the benefits of yoga, yoga styles available, studio times, location and contact information. The primary goal of the site is to promote the studio and increase attendance at classes.
 
 
-This website has been created for my Milestone 1 User Centric Frontend Development Project. 
+This website has been created for my Milestone 1 User Centric Frontend Development Project for Code Institute. 
 
 
 
@@ -19,29 +19,25 @@ This website has been created for my Milestone 1 User Centric Frontend Developme
 
 ## Table of Contents
 
-
-
 1. [ Project Goals](https://github.com/anyahush/sunrise-yoga#project-goals)
-2. [ Strategy PLane](https://github.com/anyahush/sunrise-yoga#strategy-plane)
-    * [ User Stories ](https://github.com/anyahush/sunrise-yoga#user-stories)
-3. [ Scope Place](https://github.com/anyahush/sunrise-yoga#scope-plane)
-    * [ Existing Features](https://github.com/anyahush/sunrise-yoga#existing-features)
-    * [ Features left to implement](https://github.com/anyahush/sunrise-yoga#features-left-to-implement)
-4. [ Structure Plane](https://github.com/anyahush/sunrise-yoga#structure-plane)
-5. [ Skeleton Plane](https://github.com/anyahush/sunrise-yoga#skeleton-plane)
-6. [ Surface Plane](https://github.com/anyahush/sunrise-yoga#surface-plane)
-7. [ Technologies](https://github.com/anyahush/sunrise-yoga#technologies)
-8. [ Testing](testing.md)
-9. [Deployment](https://github.com/anyahush/sunrise-yoga#deployment)
-10. [Credits](https://github.com/anyahush/sunrise-yoga#credits)
-11. [Acknowledgements]()
-
-
-
+2. [UX](https://github.com/anyahush/sunrise-yoga#ux)
+    1. [ Strategy PLane](https://github.com/anyahush/sunrise-yoga#strategy-plane)
+        * [ User Stories ](https://github.com/anyahush/sunrise-yoga#user-stories)
+    2. [ Scope Place](https://github.com/anyahush/sunrise-yoga#scope-plane)
+        * [ Existing Features](https://github.com/anyahush/sunrise-yoga#existing-features)
+        * [ Features left to implement](https://github.com/anyahush/sunrise-yoga#features-left-to-implement)
+    3. [ Structure Plane](https://github.com/anyahush/sunrise-yoga#structure-plane)
+    4. [ Skeleton Plane](https://github.com/anyahush/sunrise-yoga#skeleton-plane)
+    5. [ Surface Plane](https://github.com/anyahush/sunrise-yoga#surface-plane)
+3. [ Technologies](https://github.com/anyahush/sunrise-yoga#technologies)
+4. [ Testing](testing.md)
+5. [Deployment](https://github.com/anyahush/sunrise-yoga#deployment)
+6. [Credits](https://github.com/anyahush/sunrise-yoga#credits)
+7. [Acknowledgements]()
 
 ---
 
-<a name="goals"></a>
+
 ## Project Goals
 
 * To establish an online presence for Sunrise Yoga.
@@ -54,7 +50,7 @@ This website has been created for my Milestone 1 User Centric Frontend Developme
 
 ## UX
 
-<a name="strategy"></a>
+
 ## Strategy Plane
 
 
@@ -64,7 +60,6 @@ This website has been created for my Milestone 1 User Centric Frontend Developme
 * As a client, I want my users to navigate easily through the site, so they have a good user experience and return to the site.
 * As a client, I want visuals and information to be displayed clearly and concisely, so that users want to attend yoga classes at the studio.
 
-<a name="user-stories"></a>
 ### User Stories
 
 * First-time visitors
@@ -110,10 +105,10 @@ During the initial strategy planning, the opportunities of the site were determi
 
 &nbsp;
 
-<a name="scope"></a>
+
 ## Scope Plane
 
-During the strategy stage features were mapped according to their importance and viability. As a result, each feature has been categorised for current and future releases. The table below highlights which release each feature falls into. 
+During the strategy stage features were mapped according to their importance and viability. This process helped to ensure the project didn't extend beyond it's immediate scope.  As a result, each feature has been categorised for current and future releases. The table below highlights which release each feature falls into. 
 
 | Opportunity | Release | 
 | ----------- | ---------- | 
@@ -130,7 +125,7 @@ During the strategy stage features were mapped according to their importance and
 
 &nbsp;
 
- <a name="existing-features"></a>
+
 ### **Existing Features**
 
 - Mobile-first Responsive Design
@@ -181,7 +176,7 @@ During the strategy stage features were mapped according to their importance and
 
     * The contact form allows users to contact the studio regarding any questions, queries or issues. The form allows users to personalise the message, rather than predetermined options. The studio contact information is also provided incase a user would prefer to directly call or email the studio.
 
-<a name="future-features"></a>
+
 ### **Features Left to Implement**
 
 - Events Page
@@ -201,18 +196,21 @@ During the strategy stage features were mapped according to their importance and
     * An online membership platform will allow the studio to expand what it can offer to users throught membership bundles, discounts and early-bird offers. For users, an online membership platform enables them to manage bookings, view their class history and access discounts and offers.
 
 
-<a name="structure"></a>
+
 ## Structure Plane
 
 This site has been developed with a simple hierarchical structure. When the site is developed at later stages, a hierarchical structure will support additional pages and categories.
 
 Throughout the user's time on the site, the naviagtion bar remains at the top. The main goal of having structure is to ensure users are able to find all desired informatio readily and efficiently, resulting in the uptake of a yoga class.
 
-<a name="skeleton"></a>
+
 ## Skeleton Plane
 
-<a name="wireframes"></a>
-| Mobile Wireframes | Tablet Wireframes | Desktop Wireframes |
+### Wireframes
+
+The wireframes for this project were developed using [Balsamiq](https://balsamiq.com/).
+
+| Mobile | Tablet| Desktop|
 --------------------|--------------------|--------------------------|
 | [Mobile Home Page](assets/readme-images/wireframes/ms1-mobile-home-page.png) | [Tablet Home Page](assets/readme-images/wireframes/ms1-tablet-home-page.png) | [Desktop Home Page](assets/readme-images/wireframes/ms1-desktop-home-page.png) |
 | [Mobile Get Started Page](assets/readme-images/wireframes/ms1-mobile-page1.png) | [Tablet Get Started Page](assets/readme-images/wireframes/ms1-tablet-page1.png) | [Desktop Get Started Page](assets/readme-images/wireframes/ms1-desktop-page1.png) |
@@ -223,7 +221,7 @@ Throughout the user's time on the site, the naviagtion bar remains at the top. T
 
 ### Changes to Wireframes
 
-During the development process some changes were made to the initial wireframes.
+During the development process some changes were made to the initial wireframes. 
 
 1. Decorative image on landing page
 &nbsp;
@@ -255,7 +253,7 @@ The class timetable changed to accordion stlye for screens less than 768px. The 
 The position and style of the contact form changed during the development process. Initially it was a stand-alone form, it now uses the same styling as the sign-up form. This continuity is good for the user.
 
 
-<a name="desc"></a>
+
 ## Surface Plane
 
 The design elements of this site have been selected to convey feelings of serenity and ease.
@@ -285,7 +283,7 @@ After further research and exploration, the final colours chosen are as below.
 
 The images throughout the website have been curated to show the user what the studio and classes look like and to give a sense of peace and balance. 
 
-<a name="desc"></a>
+
 
 ## Technologies
 
@@ -309,13 +307,13 @@ The images throughout the website have been curated to show the user what the st
 - [Unsplash](https://unsplash.com/) was used to select appropriate images.
 
 
-<a name="desc"></a>
+
 
 ## Testing
 
 The testing process can be viewed [here](testing.md).
 
-<a name="desc"></a>
+
 
 ## Deployment
 
@@ -352,38 +350,52 @@ A clone of the repository can be made, which will create a local copy on your ow
 
 
 ---
-<a name="desc"></a>
+
 
 ## Credits
 
 
 
 ### Content
-* A section in get-started.html was used from  [W3 Schools](https://www.w3schools.com/howto/howto_css_portfolio_gallery.asp ).
-* A section of text content was used from [Mind Body Green](https://www.mindbodygreen.com/articles/the-11-major-types-of-yoga-explained-simply).
 
+Most content was written by the developer.
+
+* A section in get-started.html was used from  [W3 Schools](https://www.w3schools.com/howto/howto_css_portfolio_gallery.asp ).
+* The navbar is a modified version of [Bootstrap's toggler navbar](https://getbootstrap.com/docs/4.6/components/navbar/#toggler).
+* The collapsable accordion table is from [Bootstrap](https://getbootstrap.com/docs/4.6/components/collapse/#accordion-example).
+* Throught the site Bootstrap's grid system has been implemented and button styling used.
+* A section of text content was used from [Mind Body Green](https://www.mindbodygreen.com/articles/the-11-major-types-of-yoga-explained-simply).
 
 
 
 ### Media
 
 index.html
-* Hero image credited to Dmitriy Frantsev through Unsplash.
+* [Hero image](https://unsplash.com/photos/VoLLXK1qX78)
+* Gallery
+    - [Prayer behind](https://unsplash.com/photos/GpVak9-cL6E)
+    - [Downward dog](https://unsplash.com/photos/UxkcSzRWM2s)
+    - [Prayer Position](https://unsplash.com/photos/YDaGY4bl2aE)
+    - [Studio](https://unsplash.com/photos/3jztLhBPrUo)
+    - [Man practicing yoga](https://unsplash.com/photos/Y74bvL976EA)
 
 
 get-started.html
-* Woman holding yoga position on the floor credited to Rawan Yasser through Unsplash.
-* Yoga class credited to Alen Kajtezovic through Unsplash.
-* Two women practicing yoga credited to Elly Fairytal through Pexels.
-* Multiple hands on a tree credited to Shane Rounce through Unsplash.
+* [Yoga Pose](https://unsplash.com/photos/seuXd6AQu8g)
+* [Group Yoga Class](https://unsplash.com/photos/Jx4OJK76lcM)
+* [Private Lesson](https://www.pexels.com/photo/woman-doing-a-hand-stand-3822354/)
+* [Hands Photo](https://unsplash.com/photos/DNkoNXQti3c)
 
-
-
-
-<a name="desc"></a>
+classes.html
+* [Good Vibes Sign](https://unsplash.com/photos/muS2RraYRuQ)
 
 ## Acknowledgements
- 
+
+My mentor for guidance and support.
+
+[Code Institute](https://codeinstitute.net/) for their passion, support and information.
+
+The Slack Community for their support, feedback and comments throughout the process.
 
 
 
