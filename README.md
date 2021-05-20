@@ -1,8 +1,7 @@
-[View the live site here](https://anyahush.github.io/sunrise-yoga/)
-
-
 # Sunrise Yoga
 ---
+
+![](assets/readme-images/mock-ups.png)
 
 Sunrise Yoga is a mobile-first website that aims to positively promote yoga, its benefits and encourage visitors to uptake classes at the studio. Yoga has been practiced for over 5,000 years and continues to bring strength, balance and inner peace to people and communities today. Regular yoga practice can not only help manage stress and anxiety, it can help regulate hormones, reduce blood pressure, improve cardio fitness, balance and coordination, among other benefits. 
 
@@ -11,13 +10,38 @@ This website has been designed to ensure that visitors feel a sense of peace, ba
 
 This website has been created for my Milestone 1 User Centric Frontend Development Project. 
 
+
+
+[View the live site here](https://anyahush.github.io/sunrise-yoga/)
+
 ---
+
 
 ## Table of Contents
 
+
+
+1. [ Project Goals](https://github.com/anyahush/sunrise-yoga#project-goals)
+2. [ Strategy PLane](https://github.com/anyahush/sunrise-yoga#strategy-plane)
+    * [ User Stories ](https://github.com/anyahush/sunrise-yoga#user-stories)
+3. [ Scope Place](https://github.com/anyahush/sunrise-yoga#scope-plane)
+    * [ Existing Features](https://github.com/anyahush/sunrise-yoga#existing-features)
+    * [ Features left to implement](https://github.com/anyahush/sunrise-yoga#features-left-to-implement)
+4. [ Structure Plane](https://github.com/anyahush/sunrise-yoga#structure-plane)
+5. [ Skeleton Plane](https://github.com/anyahush/sunrise-yoga#skeleton-plane)
+6. [ Surface Plane](https://github.com/anyahush/sunrise-yoga#surface-plane)
+7. [ Technologies](https://github.com/anyahush/sunrise-yoga#technologies)
+8. [ Testing](testing.md)
+9. [Deployment](https://github.com/anyahush/sunrise-yoga#deployment)
+10. [Credits](https://github.com/anyahush/sunrise-yoga#credits)
+11. [Acknowledgements]()
+
+
+
+
 ---
 
-
+<a name="goals"></a>
 ## Project Goals
 
 * To establish an online presence for Sunrise Yoga.
@@ -30,7 +54,7 @@ This website has been created for my Milestone 1 User Centric Frontend Developme
 
 ## UX
 
-
+<a name="strategy"></a>
 ## Strategy Plane
 
 
@@ -40,6 +64,7 @@ This website has been created for my Milestone 1 User Centric Frontend Developme
 * As a client, I want my users to navigate easily through the site, so they have a good user experience and return to the site.
 * As a client, I want visuals and information to be displayed clearly and concisely, so that users want to attend yoga classes at the studio.
 
+<a name="user-stories"></a>
 ### User Stories
 
 * First-time visitors
@@ -85,6 +110,7 @@ During the initial strategy planning, the opportunities of the site were determi
 
 &nbsp;
 
+<a name="scope"></a>
 ## Scope Plane
 
 During the strategy stage features were mapped according to their importance and viability. As a result, each feature has been categorised for current and future releases. The table below highlights which release each feature falls into. 
@@ -104,7 +130,7 @@ During the strategy stage features were mapped according to their importance and
 
 &nbsp;
 
- 
+ <a name="existing-features"></a>
 ### **Existing Features**
 
 - Mobile-first Responsive Design
@@ -155,6 +181,7 @@ During the strategy stage features were mapped according to their importance and
 
     * The contact form allows users to contact the studio regarding any questions, queries or issues. The form allows users to personalise the message, rather than predetermined options. The studio contact information is also provided incase a user would prefer to directly call or email the studio.
 
+<a name="future-features"></a>
 ### **Features Left to Implement**
 
 - Events Page
@@ -174,15 +201,17 @@ During the strategy stage features were mapped according to their importance and
     * An online membership platform will allow the studio to expand what it can offer to users throught membership bundles, discounts and early-bird offers. For users, an online membership platform enables them to manage bookings, view their class history and access discounts and offers.
 
 
-
+<a name="structure"></a>
 ## Structure Plane
 
 This site has been developed with a simple hierarchical structure. When the site is developed at later stages, a hierarchical structure will support additional pages and categories.
 
 Throughout the user's time on the site, the naviagtion bar remains at the top. The main goal of having structure is to ensure users are able to find all desired informatio readily and efficiently, resulting in the uptake of a yoga class.
+
+<a name="skeleton"></a>
 ## Skeleton Plane
 
-
+<a name="wireframes"></a>
 | Mobile Wireframes | Tablet Wireframes | Desktop Wireframes |
 --------------------|--------------------|--------------------------|
 | [Mobile Home Page](assets/readme-images/wireframes/ms1-mobile-home-page.png) | [Tablet Home Page](assets/readme-images/wireframes/ms1-tablet-home-page.png) | [Desktop Home Page](assets/readme-images/wireframes/ms1-desktop-home-page.png) |
@@ -226,7 +255,7 @@ The class timetable changed to accordion stlye for screens less than 768px. The 
 The position and style of the contact form changed during the development process. Initially it was a stand-alone form, it now uses the same styling as the sign-up form. This continuity is good for the user.
 
 
-
+<a name="desc"></a>
 ## Surface Plane
 
 The design elements of this site have been selected to convey feelings of serenity and ease.
@@ -256,6 +285,8 @@ After further research and exploration, the final colours chosen are as below.
 
 The images throughout the website have been curated to show the user what the studio and classes look like and to give a sense of peace and balance. 
 
+<a name="desc"></a>
+
 ## Technologies
 
 ### Languages
@@ -278,9 +309,13 @@ The images throughout the website have been curated to show the user what the st
 - [Unsplash](https://unsplash.com/) was used to select appropriate images.
 
 
+<a name="desc"></a>
+
 ## Testing
 
 The testing process can be viewed [here](testing.md).
+
+<a name="desc"></a>
 
 ## Deployment
 
@@ -317,6 +352,7 @@ A clone of the repository can be made, which will create a local copy on your ow
 
 
 ---
+<a name="desc"></a>
 
 ## Credits
 
@@ -344,7 +380,9 @@ get-started.html
 
 
 
+<a name="desc"></a>
 
+## Acknowledgements
  
 
 
