@@ -131,17 +131,19 @@
 
                     <div>
 
-                        <input type="text" id="name-sign-up" class="form-input" placeholder="Name" required>
+                        <input type="text" id="name-sign-up" class="form-input" placeholder="Name" name="fullname"
+                            required>
 
                         <br>
                     </div>
                     <div>
-                        <input type="email" id="email-sign-up" class="form-input" placeholder="Email" required>
+                        <input type="email" id="email-sign-up" class="form-input" name="email" placeholder="Email"
+                            required>
 
                         <br>
                     </div>
                     <div>
-                        <input type="text" id="message-subject-sign-up" class="form-input" required
+                        <input type="text" id="message-subject-sign-up" class="form-input" name="enquiry" required
                             placeholder="Subject">
 
                         <br>
@@ -156,7 +158,7 @@
                         <label for="user-permission">I consent to sharing my information with Sunrise
                             Yoga.</label>
                     </div>
-                    <button type="button" class="btn btn-dark">Send</button>
+                    <button type="submit" class="btn btn-dark">Send</button>
                 </form>
 
 
