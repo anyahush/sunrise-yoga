@@ -112,9 +112,15 @@ The website was developed on Google Chrome 90.0.4430.212, and counter-checked wi
 
 Using [Lambdatest](https://www.lambdatest.com/) the site's browser compatibility was checked. 
 
-The Lamdatest checked a variety of versions in each browser. Below are two examples of the browser compatibility tests.
+The Lamdatest checked a selection of browsers and versions for both Windows and macOS.
+- Chrome: 90, 89, 86, 85
+- Firefox: 88, 87, 85, 84
+- IE: 11
+- Safari: 14, 13 
 
-![Windows 10 Chrome 89](assets/readme-images/windows10-chrome89.png)
+Below are two examples of the browser compatibility tests.
+
+![macOS Catalina Chrome 89](assets/readme-images/macOS-catalina-chrome89.png)
 
 ![Windows 10 Internet Explorer 11](assets/readme-images/windows10-ie11.png)
 

@@ -3,9 +3,9 @@
 
 ![](assets/readme-images/mock-ups.png)
 
-Sunrise Yoga is a mobile-first website that aims to positively promote yoga, its benefits and encourage visitors to uptake classes at the studio. Yoga has been practiced for over 5,000 years and continues to bring strength, balance and inner peace to people and communities today. Regular yoga practice can not only help manage stress and anxiety, it can help regulate hormones, reduce blood pressure, improve cardio fitness, balance and coordination, among other benefits. 
+Sunrise Yoga is a mobile-first website that aims to positively promote yoga, its benefits and encourage visitors to uptake classes at the studio. Yoga has been practiced for over 5,000 years and continues to bring strength, balance and inner peace to people and communities across the world today. Regular yoga practice can not only help manage stress and anxiety, it can help regulate hormones, reduce blood pressure, improve cardio fitness, balance and coordination, among other benefits. 
 
-This website has been designed to ensure that visitors feel a sense of peace, balance and growth when exploring the site. Visitors can find information on the benefits of yoga, yoga styles available, studio times, location and contact information. The primary goal of the site is to promote the studio and increase attendance at classes.
+This website has been designed to ensure that visitors feel a sense of peace, balance and growth when exploring the site. Visitors can find information on the benefits of yoga, yoga styles available, studio times, location and contact information. The primary goal of the site is to promote the studio and increase class attendance.
 
 
 This website has been created for my Milestone 1 User Centric Frontend Development Project for Code Institute. 
@@ -21,19 +21,19 @@ This website has been created for my Milestone 1 User Centric Frontend Developme
 
 1. [ Project Goals](https://github.com/anyahush/sunrise-yoga#project-goals)
 2. [UX](https://github.com/anyahush/sunrise-yoga#ux)
-    1. [ Strategy PLane](https://github.com/anyahush/sunrise-yoga#strategy-plane)
-        * [ User Stories ](https://github.com/anyahush/sunrise-yoga#user-stories)
-    2. [ Scope Place](https://github.com/anyahush/sunrise-yoga#scope-plane)
-        * [ Existing Features](https://github.com/anyahush/sunrise-yoga#existing-features)
-        * [ Features left to implement](https://github.com/anyahush/sunrise-yoga#features-left-to-implement)
-    3. [ Structure Plane](https://github.com/anyahush/sunrise-yoga#structure-plane)
-    4. [ Skeleton Plane](https://github.com/anyahush/sunrise-yoga#skeleton-plane)
-    5. [ Surface Plane](https://github.com/anyahush/sunrise-yoga#surface-plane)
-3. [ Technologies](https://github.com/anyahush/sunrise-yoga#technologies)
-4. [ Testing](testing.md)
-5. [Deployment](https://github.com/anyahush/sunrise-yoga#deployment)
-6. [Credits](https://github.com/anyahush/sunrise-yoga#credits)
-7. [Acknowledgements]()
+3. [ Strategy PLane](https://github.com/anyahush/sunrise-yoga#strategy-plane)
+    * [ User Stories ](https://github.com/anyahush/sunrise-yoga#user-stories)
+4. [ Scope Place](https://github.com/anyahush/sunrise-yoga#scope-plane)
+    * [ Existing Features](https://github.com/anyahush/sunrise-yoga#existing-features)
+    * [ Features left to implement](https://github.com/anyahush/sunrise-yoga#features-left-to-implement)
+5.  [ Structure Plane](https://github.com/anyahush/sunrise-yoga#structure-plane)
+6.  [ Skeleton Plane](https://github.com/anyahush/sunrise-yoga#skeleton-plane)
+7.  [ Surface Plane](https://github.com/anyahush/sunrise-yoga#surface-plane)
+8. [ Technologies](https://github.com/anyahush/sunrise-yoga#technologies)
+9. [ Testing](testing.md)
+10. [Deployment](https://github.com/anyahush/sunrise-yoga#deployment)
+11. [Credits](https://github.com/anyahush/sunrise-yoga#credits)
+12. [Acknowledgements]()
 
 ---
 
@@ -50,6 +50,9 @@ This website has been created for my Milestone 1 User Centric Frontend Developme
 
 ## UX
 
+UX design and principles have been central to the development and execution of this project. Each of the five planes were explored at the initially planning stages and then used throughout the development process.
+
+---
 
 ## Strategy Plane
 
@@ -139,12 +142,14 @@ During the strategy stage features were mapped according to their importance and
 
 - Landing Page
 
-    * The landing page introduces the user to Sunrise Yoga. It features a hero image of a woman practicing yoga. This is a striking image, that quickly indicates to the user that the website is related to yoga. Additionally, there is a welcome message that introduces the user to site. The welcome message also includes a button that links to the Get Started page, where new users can find out more about starting yoga. 
+    * The landing page introduces the user to Sunrise Yoga. It features a hero image of a woman practicing yoga. This is a striking image, that quickly indicates to the user that the website is related to yoga. 
+    * Additionally, there is a welcome message that introduces the user to site. The welcome message also includes a button that links to the Get Started page, where new users can find out more about starting yoga. 
 
 
 - Our Ethos Section
 
-    * The Our Ethos section describes to the user about the ethos, values and history of the studio. This builds a strong brand for the studio and trust with the users. By giving the users context of the studio, it encourages users to further explore the website and book classes at the studio.
+    * The Our Ethos section describes to the user about the ethos, values and history of the studio. This builds a strong brand for the studio and trust with the users. 
+    * By giving the users context of the studio, it encourages users to further explore the website and book classes at the studio.
 
 
 - Newsletter Sign-Up
@@ -153,28 +158,35 @@ During the strategy stage features were mapped according to their importance and
 
 - Gallery
 
-    * At the bottom of the landing page there is a gallery. These images are a mixture of people practicing yoga and of the studio. The images convey to users what it would be like if they attended and what yoga can look like. By showing users what the classes will look like, it encourages users to attend as it de-mystifies some of the worries about starting yoga or a new class. 
+    * At the bottom of the landing page there is a gallery. These images are a mixture of people practicing yoga and of the studio. The images convey to users what it would be like if they attended and what yoga can look like. 
+    * By showing users what the classes will look like, it encourages users to attend as it de-mystifies some of the worries about starting yoga or a new class. 
 
 - Footer
 
-    * The footer of the website remains the same throughout the site. This continuity ensures that the user can find what they are looking for quickly, creating a good user experience. The footer contains [Font Awesome](https://fontawesome.com/) icons for social media links to the studio's social media accounts. These sites open on a seperate page when clicked. By having social media links easily accessible throughout the site means that users can continue to follow the studio.
+    * The footer of the website remains the same throughout the site. This continuity ensures that the user can find what they are looking for quickly, creating a good user experience. 
+    * The footer contains [Font Awesome](https://fontawesome.com/) icons for social media links to the studio's social media accounts. These sites open on a seperate page when clicked. 
+    * By having social media links easily accessible throughout the site allows users to continue to follow the studio.
 
 - Get Started Page
 
-    * The second page is called Get Started and it specifically targets people who haven't done yoga before or haven't done it in a long time. This page includes information on starting yoga and what beginner options are available, along with supporting images. Having this dedicated page on starting yoga, allows new users to navigate the site easily.
+    * The second page is called Get Started and it specifically targets people who haven't done yoga before or haven't done it in a long time. This page includes information on starting yoga and what beginner options are available, along with supporting images. 
+    * Having this dedicated page on starting yoga, allows new users to navigate the site easily and find desired information quickly.
 
 - Class Timetable
 
-    * A table is used to display the class timetable. This has been amended to accordion style for smaller screens, so that users are not required to use a horizontal scroll. The class days, times and levels are shown, so users can decide what class they would like to attend. Information on the different styles available, cost and what to bring is also included to ensure that the user if fully informed.
+    * A table is used to display the class timetable. This has been amended to accordion style for smaller screens, so that users are not required to use a horizontal scroll. 
+    * The class days, times and levels are shown, so users can decide what class they would like to attend. Information on the different styles available, cost and what to bring is also included to ensure that the user if fully informed.
 
 - Location Information 
 
-    * On the final page the location information of the studio and map are dislayed. The map helps users to visually understand where the studio is. The map can also be clicked on and enlarged. The supporting information tells users about parking and transport options. This practical information is important in ensuring the user is fully informed.
+    * On the final page the location information of the studio and map are dislayed. The map helps users to visually understand where the studio is. The map can also be clicked on and enlarged. 
+    * The supporting information tells users about parking and transport options. This practical information is important in ensuring the user is fully informed.
 
 
 - Contact Form
 
-    * The contact form allows users to contact the studio regarding any questions, queries or issues. The form allows users to personalise the message, rather than predetermined options. The studio contact information is also provided incase a user would prefer to directly call or email the studio.
+    * The contact form allows users to contact the studio regarding any questions, queries or issues. The form allows users to personalise the message, rather than predetermined options. 
+    * The studio contact information is also provided incase a user would prefer to directly call or email the studio.
 
 
 ### **Features Left to Implement**
@@ -185,7 +197,7 @@ During the strategy stage features were mapped according to their importance and
 
 - Testimonial Page
 
-    * A testimonial page will be dedicated to highlighting positive feedback of members and studio users. This page is important for encouraging new and existing users to attend and engage with the studio. Positive stories and anecdotes help users understand the impact the studio and yoga has had on people.
+    * A testimonial page will be dedicated to highlighting positive feedback of members and studio users. This page is important for encouraging new and existing users to attend and engage with the studio. Positive stories and anecdotes help users understand the impact the studio and yoga has had on people in their community.
 
 - Online Booking System
 
@@ -193,7 +205,8 @@ During the strategy stage features were mapped according to their importance and
 
 - Online Membership Platform
 
-    * An online membership platform will allow the studio to expand what it can offer to users throught membership bundles, discounts and early-bird offers. For users, an online membership platform enables them to manage bookings, view their class history and access discounts and offers.
+    * An online membership platform will allow the studio to expand what it can offer to users throught membership bundles, discounts and early-bird offers. 
+    * For users, an online membership platform enables them to manage bookings, view their class history and access discounts and offers.
 
 
 
@@ -201,7 +214,7 @@ During the strategy stage features were mapped according to their importance and
 
 This site has been developed with a simple hierarchical structure. When the site is developed at later stages, a hierarchical structure will support additional pages and categories.
 
-Throughout the user's time on the site, the naviagtion bar remains at the top. The main goal of having structure is to ensure users are able to find all desired informatio readily and efficiently, resulting in the uptake of a yoga class.
+Throughout the user's time on the site, the naviagtion bar remains at the top. The main goal of having structure is to ensure users are able to find all desired information readily and efficiently, resulting in the uptake of a yoga class.
 
 
 ## Skeleton Plane
@@ -224,33 +237,25 @@ The wireframes for this project were developed using [Balsamiq](https://balsamiq
 During the development process some changes were made to the initial wireframes. 
 
 1. Decorative image on landing page
-&nbsp;
-In the initial wireframe a decorative circle image was going to be displayed. During the development process, the alignment and position did not contribute to a good user experience. As the image was decorative and not informative or essential the image was removed. 
+    - In the initial wireframe a decorative circle image was going to be displayed. During the development process, the alignment and position did not contribute to a good user experience. As the image was decorative and not informative or essential the image was removed. 
 
 2. Modal
-&nbsp;
-Initially the sign-up box for the monthly newsletter was going to be a modal box. When implementing it did not flow properly on the page. A coloured banner containing the sign-up form was used instead. This is eye-catching for the user and doesn't take away from the overall feel of the site or the value of the sign-up form.
+    - Initially the sign-up box for the monthly newsletter was going to be a modal box. When implementing it did not flow properly on the page. A coloured banner containing the sign-up form was used instead. This is eye-catching for the user and doesn't take away from the overall feel of the site or the value of the sign-up form.
 
 3. Additional paragraph in landing page
-&nbsp;
-A paragraph called "Our story" was added during development. This gives the user history to how the studio came about and is important for giving context.
+    - A paragraph called "Our story" was added during development. This gives the user history to how the studio came about and is important for giving context.
 
 4. Gallery
-&nbsp;
-The number of images displayed on a tablet screen changed to include more images to ensure the space is used creatively and appropriately.
-
+    - The number of images displayed on a tablet screen changed to include more images to ensure the space is used creatively and appropriately.
 
 5. Get Started page
-&nbsp;
-The alignment and positioning of information and images on tablet screens changed from single-stacked to a row with two columns and a seperate full-width column. This is better UX design, ensuring there isn't any empty spaces.
+    - The alignment and positioning of information and images on tablet screens changed from single-stacked to one row with two columns followed by an additional full-width column. This is better UX design, ensuring there isn't any empty spaces.
 
 6. Class Timetable
-&nbsp;
-The class timetable changed to accordion stlye for screens less than 768px. The initial table meant that on smaller screens the user would have to horizontally scroll. The accordion style was implemented to improve the user experience.
+    - The class timetable changed to accordion stlye for screens less than 768px. The initial table meant that on smaller screens the user would have to horizontally scroll. The accordion style was implemented to improve the user experience.
 
 7. Position of contact form
-&nbsp;
-The position and style of the contact form changed during the development process. Initially it was a stand-alone form, it now uses the same styling as the sign-up form. This continuity is good for the user.
+    - The position and style of the contact form changed during the development process. Initially it was a stand-alone form, it now uses the same styling as the sign-up form. This continuity is good for the user.
 
 
 
@@ -276,7 +281,7 @@ After further research and exploration, the final colours chosen are as below.
 ![](assets/readme-images/colours/atomic-tangerine.png)
 ![](assets/readme-images/colours/apricot.png)
 
-*Note: The colour apricot was used in rgba form as rgba(255, 201, 173, 0.5). For the purposes of display it was converted to hex*
+*Note: The colour apricot was used in rgba form as rgba(255, 201, 173, 0.5). For the purposes of display it was converted to hex.*
 
 
 ### Images
@@ -369,6 +374,8 @@ Most content was written by the developer.
 
 
 ### Media
+
+Images from Unsplash and Pexels have been used in this project. 
 
 index.html
 * [Hero image](https://unsplash.com/photos/VoLLXK1qX78)
