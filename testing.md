@@ -118,12 +118,11 @@ The Lamdatest checked a selection of browsers and versions for both Windows and 
 - IE: 11
 - Safari: 14, 13 
 
-Below are two examples of the browser compatibility tests.
+Below is an example of the browser compatibility tests.
 
 ![macOS Catalina Chrome 89](assets/readme-images/macOS-catalina-chrome89.png)
 
-![Windows 10 Internet Explorer 11](assets/readme-images/windows10-ie11.png)
-
+*Note: The site is compatible with different browsers. On IE some photos display minorly stretched but this does not affect the overall execution of the project.*
 
 ![Browser Compatibility Grid](assets/readme-images/browser-compatibility-grid.png)
 
@@ -131,36 +130,20 @@ Below are two examples of the browser compatibility tests.
 
 To test the performance of the site Google Chrome Lighthouse was used. Each page was tested for performace, accessibility, best practice and search engine optimisation (SEO).
 
-Home Page
-1. Perfomance- 99
-2. Accessibility- 98
-3. Best Practice- 100
-4. SEO- 90
+#### Home Page
 
 ![](assets/readme-images/home-page-performance.png)
 
-Get Started Page
-1. Perfomance- 100
-2. Accessibility- 98
-3. Best Practice- 100
-4. SEO- 100
+#### Get Started Page
 
 ![](assets/readme-images/get-started-performance.png)
 
-Classes Page
-1. Perfomance- 100
-2. Accessibility- 97
-3. Best Practice- 93
-4. SEO- 100
+#### Classes Page
 
 ![](assets/readme-images/classes-performance.png)
 
-Contact Page
-1. Perfomance- 100
-2. Accessibility- 97
-3. Best Practice- 93
-4. SEO- 100
-
+#### Contact Page
+ß
 ![](assets/readme-images/contact-performance.png)
 
 
