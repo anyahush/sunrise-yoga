@@ -4,13 +4,13 @@
 
 - [The W3C Markup Validation Service](https://validator.w3.org/) tool was used to validate all html files. Initially the only errors displaying were extra <div> tags, these were removed and resulted in no errors found.
 
-![](assets/readme-images/w3c-html-validation.png)
+![](assets/readme-images/testing-images/w3c-html-validation.png)
 
 &nbsp;
 
 - [The W3C CSS Validation Service](https://jigsaw.w3.org/css-validator/validator) tool was used to validate the CSS stylesheet. 
 
-![](assets/readme-images/w3c-css-validation.png)
+![](assets/readme-images/testing-images/w3c-css-validation.png)
 
 &nbsp;
 
@@ -104,7 +104,7 @@
 
 Responsiveness of this site has been tested using [Google Chrome Developer Tools](https://developer.chrome.com/docs/devtools/) and Safari Develop options. 
 
-![Device Responsiveness Grid](assets/readme-images/responsiveness-grid.png)
+![Device Responsiveness Grid](assets/readme-images/testing-images/responsiveness-grid.png)
 
 ### Browser Compatibility 
 
@@ -120,11 +120,11 @@ The Lamdatest checked a selection of browsers and versions for both Windows and 
 
 Below is an example of the browser compatibility tests.
 
-![macOS Catalina Chrome 89](assets/readme-images/macOS-catalina-chrome89.png)
+![macOS Catalina Chrome 89](assets/readme-images/testing-images/macOS-catalina-chrome89.png)
 
 *Note: The site is compatible with different browsers. On IE some photos display minorly stretched but this does not affect the overall execution of the project.*
 
-![Browser Compatibility Grid](assets/readme-images/browser-compatibility-grid.png)
+![Browser Compatibility Grid](assets/readme-images/testing-images/browser-compatibility-grid.png)
 
 ### Performance
 
@@ -132,19 +132,19 @@ To test the performance of the site Google Chrome Lighthouse was used. Each page
 
 #### Home Page
 
-![](assets/readme-images/home-page-performance.png)
+![](assets/readme-images/testing-images/home-page-performance.png)
 
 #### Get Started Page
 
-![](assets/readme-images/get-started-performance.png)
+![](assets/readme-images/testing-images/get-started-performance.png)
 
 #### Classes Page
 
-![](assets/readme-images/classes-performance.png)
+![](assets/readme-images/testing-images/classes-performance.png)
 
 #### Contact Page
 ß
-![](assets/readme-images/contact-performance.png)
+![](assets/readme-images/testing-images/contact-performance.png)
 
 
 ### Bugs
