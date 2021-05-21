@@ -225,7 +225,7 @@ The wireframes for this project were developed using [Balsamiq](https://balsamiq
 
 | Mobile | Tablet| Desktop|
 --------------------|--------------------|--------------------------|
-| [Mobile Home Page](assets/readme-images/wireframes/ms1-mobile-home-page.png) | [Tablet Home Page](assets/readme-images/wireframes/ms1-tablet-home-page.png) | [Desktop Home Page](assets/readme-images/wireframes/ms1-desktop-home-page.png) |
+| [Mobile Home Page](assets/readme-images/wireframes/ms1-mobile-home-page.png) | [Tablet Home Page](assets/readme-images/wireframes/ms1-tablet-home-page.png) | [Desktop Home Page](assets/readme-images/wireframes/ms1-desktop-page3.png) |
 | [Mobile Get Started Page](assets/readme-images/wireframes/ms1-mobile-page1.png) | [Tablet Get Started Page](assets/readme-images/wireframes/ms1-tablet-page1.png) | [Desktop Get Started Page](assets/readme-images/wireframes/ms1-desktop-page1.png) |
 | [Mobile Classes Page](assets/readme-images/wireframes/ms1-mobile-page2.png) | [Tablet Classes Page](assets/readme-images/wireframes/ms1-tablet-page2.png) | [Desktop Classes Page](assets/readme-images/wireframes/ms1-desktop-page2.png) |
 | [Mobile Contact Page](assets/readme-images/wireframes/ms1-mobile-page3.png) | [Tablet Contact Page](assets/readme-images/wireframes/ms1-tablet-page3.png) | [Desktop Contact Page](assets/readme-images/wireframes/ms1-desktop-page3.png) |
