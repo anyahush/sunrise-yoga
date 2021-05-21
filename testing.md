@@ -59,6 +59,7 @@
 
 ![](assets/readme-images/user-story-images/timetable-collapse.png)
 
+![](assets/readme-images/user-story-images/timetable-desktop.png)
 
 5. *As a visitor, I want to be able to contact the studio, so I can have my queries resolved.*
  &nbsp;
@@ -152,21 +153,16 @@ To test the performance of the site Google Chrome Lighthouse was used. Each page
 During development of this website several bugs arose and were subsequently fixed. 
 
 1. Horizontal scrollbar
-&nbsp;
-A horizontal scrollbar appeared on the Get Started page. Width of images, containers and components were checked and initially the scrollbar was not resolved. After further investigation a Bootstrap offset class had been applied to the center image. After removing this, the scrollbar disappeared.
+- A horizontal scrollbar appeared on the Get Started page. Width of images, containers and components were checked and initially the scrollbar was not resolved. After further investigation a Bootstrap offset class had been applied to the center image. After removing this, the scrollbar disappeared.
 
 2. Spacing on Home Page
-&nbsp;
-On the home page there was an issue of spacing between the different <div> sections. When responsivness was checked the text overlapped. Media queries have been used to resolve this issue.
+- On the home page there was an issue of spacing between the different <div> sections. When responsivness was checked the text overlapped. Media queries have been used to resolve this issue.
 
 3. Navbar active highlight
-&nbsp;
-When on a different page other than the home page, the home page remained highlighted in the navbar. The active class has been added to each page to ensure when the user is on a page, that page is highlighted.
+- When on a different page other than the home page, the home page remained highlighted in the navbar. The active class has been added to each page to ensure when the user is on a page, that page is highlighted.
 
 4. Required Attribute
-&nbsp;
-When trying to submit either the sign-up form or contact form, the form would not prompt the user if they had not filled in the required information. This has been rectified by changing the button types to submit and adding name attributes to the inputs.
+- When trying to submit either the sign-up form or contact form, the form would not prompt the user if they had not filled in the required information. This has been rectified by changing the button types to submit and adding name attributes to the inputs.
 
 5. Button on Home Page
-&nbsp;
-The "Click here" button at the end of the welcome message was sitting closely to the above text. As it is a Bootstrap styled anchor link, overriding the styles proved difficult. An additional line break has been included to ensure enough spacing around the button. 
+- The "Click here" button at the end of the welcome message was sitting closely to the above text. As it is a Bootstrap styled anchor link, overriding the styles proved difficult. An additional line break has been included to ensure enough spacing around the button. 

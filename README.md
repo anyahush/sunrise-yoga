@@ -21,9 +21,9 @@ This website has been created for my Milestone 1 User Centric Frontend Developme
 
 1. [ Project Goals](https://github.com/anyahush/sunrise-yoga#project-goals)
 2. [UX](https://github.com/anyahush/sunrise-yoga#ux)
-3. [ Strategy PLane](https://github.com/anyahush/sunrise-yoga#strategy-plane)
+3. [ Strategy Plane](https://github.com/anyahush/sunrise-yoga#strategy-plane)
     * [ User Stories ](https://github.com/anyahush/sunrise-yoga#user-stories)
-4. [ Scope Place](https://github.com/anyahush/sunrise-yoga#scope-plane)
+4. [ Scope Plane](https://github.com/anyahush/sunrise-yoga#scope-plane)
     * [ Existing Features](https://github.com/anyahush/sunrise-yoga#existing-features)
     * [ Features left to implement](https://github.com/anyahush/sunrise-yoga#features-left-to-implement)
 5.  [ Structure Plane](https://github.com/anyahush/sunrise-yoga#structure-plane)
@@ -102,7 +102,7 @@ During the initial strategy planning, the opportunities of the site were determi
 &nbsp;
 
 
-<img src="assets/readme-images/meta-chart.png" alt="Importance-Viability Graph" width="800" height="600"/>
+<img src="assets/readme-images/importance-viability-graph.png" alt="Importance-Viability Graph" width="800" height="600"/>
 
 *Note: Number 1: Create an online presence is plotted at 5,5, behind number 3.*
 
@@ -299,6 +299,7 @@ The images throughout the website have been curated to show the user what the st
 
 ### Frameworks and Libraries
 
+- [Am I Responsive?](http://ami.responsivedesign.is/) was used to create the mock ups.
 - [Balsamiq](https://balsamiq.com/) was used to create the wireframes for this project during the design process.
 - [Bootstrap 4.6.0](https://getbootstrap.com/docs/4.6/getting-started/introduction/) was contributed to the responsiveness and styling of the project.
 - [Coolors](https://coolors.co/) was used in the initial design process to choose a colour palette.
@@ -308,6 +309,7 @@ The images throughout the website have been curated to show the user what the st
 - [GitPod](https://gitpod.io) was used as the IDE to develop the project.
 -  Google Maps was used to display the location of the studio.
 - [Lamdatest](https://www.lambdatest.com/) was used to check browser compatibility.
+- [Meta-Chart](https://www.meta-chart.com/) was used to create the scatter graph in the README.md.
 - [Pexels](https://www.pexels.com/) was used to select appropriate images.
 - [Unsplash](https://unsplash.com/) was used to select appropriate images.
 
@@ -375,7 +377,7 @@ Most content was written by the developer.
 
 ### Media
 
-Images from Unsplash and Pexels have been used in this project. 
+Images from [Unsplash](https://unsplash.com/) and [Pexels](https://www.pexels.com/) have been used in this project. 
 
 index.html
 * [Hero image](https://unsplash.com/photos/VoLLXK1qX78)
