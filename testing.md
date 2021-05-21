@@ -173,3 +173,11 @@ On the home page there was an issue of spacing between the different <div> secti
 3. Navbar active highlight
 &nbsp;
 When on a different page other than the home page, the home page remained highlighted in the navbar. The active class has been added to each page to ensure when the user is on a page, that page is highlighted.
+
+4. Required Attribute
+&nbsp;
+When trying to submit either the sign-up form or contact form, the form would not prompt the user if they had not filled in the required information. This has been rectified by changing the button types to submit and adding name attributes to the inputs.
+
+5. Button on Home Page
+&nbsp;
+The "Click here" button at the end of the welcome message was sitting closely to the above text. As it is a Bootstrap styled anchor link, overriding the styles proved difficult. An additional line break has been included to ensure enough spacing around the button. 
