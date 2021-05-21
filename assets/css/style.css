@@ -213,7 +213,26 @@ h3 {
     border-radius: 3px 3px;
 }
 
-@media only screen and (min-width: 768px) {
+input[type=text]:focus {
+    outline-color: #3e837b;
+}
+
+input[type=email]:focus {
+    outline-color: #3e837b;
+}
+
+@media only screen and (min-width: 768px) and (max-width:1024px) {
+    .form-input {
+        width: 50%;
+    }
+
+    #sign-up,
+    #contact-form {
+        padding: 20px;
+    }
+}
+
+@media only screen and (min-width: 1025px) {
     .form-input {
         width: 33%;
     }
@@ -224,13 +243,12 @@ h3 {
     }
 }
 
-input[type=text]:focus {
-    outline-color: #3e837b;
+@media only screen and (max-width: 750px) {
+    .user-permission {
+        font-size: 70%;
+    }
 }
 
-input[type=email]:focus {
-    outline-color: #3e837b;
-}
 
 /*-------------------------------- Gallery ---*/
 #gallery {
