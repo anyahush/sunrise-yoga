@@ -33,7 +33,7 @@ This website has been created for my Milestone 1 User Centric Frontend Developme
 9. [ Testing](testing.md)
 10. [Deployment](https://github.com/anyahush/sunrise-yoga#deployment)
 11. [Credits](https://github.com/anyahush/sunrise-yoga#credits)
-12. [Acknowledgements]()
+12. [Acknowledgements](https://github.com/anyahush/sunrise-yoga#acknowledgements)
 
 ---
 

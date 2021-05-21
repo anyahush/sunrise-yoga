@@ -8,7 +8,7 @@
 
 &nbsp;
 
-- [The W3C CSS Validation Service](https://jigsaw.w3.org/css-validator/validator) tool was used to validate the CSS stylesheet. 
+- [The W3C CSS Validation Service](https://jigsaw.w3.org/css-validator/) tool was used to validate the CSS stylesheet. 
 
 ![](assets/readme-images/testing-images/w3c-css-validation.png)
 
