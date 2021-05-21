@@ -5,8 +5,6 @@
     margin: 0;
     padding: 0;
     border: 0;
-
-
 }
 
 body {
@@ -23,9 +21,7 @@ body {
     margin-left: 0;
 }
 
-
 h2 {
-
     font-size: 200%;
     padding: 20px;
     text-align: center;
@@ -41,14 +37,12 @@ h3 {
     text-align: center;
 }
 
-
 /*-------------------------------- Header ---*/
 #title {
     font-size: 120%;
     font-family: 'Meddon', sans-serif;
     font-weight: 300;
     color: #3e837b;
-
 }
 
 #tagline {
@@ -84,8 +78,6 @@ h3 {
 .navbar-light .navbar-nav .show>.nav-link {
     color: #ee9061;
 }
-
-
 
 .navbar-collapse {
     text-align: center;
@@ -140,18 +132,12 @@ h3 {
     font-size: 80%;
     text-transform: uppercase;
     letter-spacing: 2px;
-
-    ;
-
 }
 
 /*-------------------------------- Features ---*/
 
-
-
 #welcome {
     height: 400px;
-
 }
 
 @media screen and (max-width: 425px) {
@@ -181,11 +167,9 @@ h3 {
 
 
 #our-ethos {
-
     text-align: center;
     margin: 25px 0;
 }
-
 
 #sign-up,
 #contact-form {
@@ -249,7 +233,6 @@ input[type=email]:focus {
     }
 }
 
-
 /*-------------------------------- Gallery ---*/
 #gallery {
     margin: 40px 0;
@@ -263,17 +246,14 @@ input[type=email]:focus {
     padding: 5px;
 }
 
-
 .col-lg-4 {
     padding: 0;
 }
-
 
 /*-------------------------------- Footer---*/
 footer {
     height: 80px;
     background-color: rgba(62, 131, 123, 0.3);
-
 }
 
 .social-links {
@@ -285,14 +265,12 @@ footer {
     display: inline;
 }
 
-
 .social-links i {
     font-size: 160%;
     margin-top: 20px;
     padding: 0 5%;
     color: #515d5f;
 }
-
 
 .social-links i:hover {
     color: #ee9061;
@@ -315,7 +293,6 @@ ul {
 
 /*-------------------------------- Get Started Page---*/
 
-
 #get-started-image {
     height: 400px;
     margin: 140px;
@@ -330,7 +307,6 @@ ul {
 
 /*-------------------------------- Code amended from W3 School---*/
 
-
 .column {
     float: left;
     width: 33%;
@@ -344,7 +320,6 @@ ul {
 
 .image-content {
     padding: 10px;
-
 }
 
 .image-content img {
@@ -414,7 +389,6 @@ ul {
 
 .btn-link:focus {
     text-decoration: none;
-
 }
 
 .btn-link:hover {
@@ -429,7 +403,6 @@ ul {
 #yoga-types {
     margin: 25px 0;
     text-align: center;
-
 }
 
 #yoga-types h2,
@@ -444,14 +417,12 @@ ul {
 
 #good-vibes-image {
     margin: 20px;
-
 }
 
 @media screen and (max-width: 425px) {
     #good-vibes {
         height: 350px;
         width: 250px;
-
     }
 }
 
@@ -478,7 +449,6 @@ ul {
     margin: 75px 0;
 }
 
-
 /*-------------------------------- Contact Page--*/
 
 #location {
@@ -493,14 +463,12 @@ ul {
     margin: 40px 0;
 }
 
-
 @media screen and (max-width: 425px) {
     iframe {
         height: 250px;
         width: 250px;
     }
 }
-
 
 #contact-form {
     height: 575px;
